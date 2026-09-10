@@ -77,3 +77,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // don't belong in a sitemap.
   return [...staticRoutes, ...categoryRoutes, ...brandRoutes, ...productRoutes, ...blogRoutes];
 }
+
+export const dynamic = 'force-static';
