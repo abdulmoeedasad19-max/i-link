@@ -105,7 +105,9 @@ export default async function ProductPage({
 
   const canonicalUrl = `${siteConfig.url}/product/${product.slug}`;
   const shopUrl = `${siteConfig.url}/shop`;
-  const categoryUrl = `${siteConfig.url}/shop/${product.categorySlug}`;
+  const categoryUrl = product.categorySlug === "laptops"
+    ? `${siteConfig.url}/laptops`
+    : `${siteConfig.url}/shop/${product.categorySlug}`;
 
   // Real product photography only — sorted primary-first, then by the
   // admin-assigned sortOrder. Falls back to the single resolved `image`
@@ -142,10 +144,11 @@ export default async function ProductPage({
       priceCurrency: "PKR",
       price: String(product.price),
       availability: inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-      // Every product sold here is new, genuine retail stock — never used
-      // or refurbished — so this is a fixed fact of the catalog, not a
-      // per-product admin field.
-      itemCondition: "https://schema.org/NewCondition",
+      ...(product.tags.some(t => t.toLowerCase().includes("used") || t.toLowerCase().includes("refurbished"))
+        ? { itemCondition: "https://schema.org/UsedCondition" }
+        : product.tags.some(t => t.toLowerCase().includes("new"))
+        ? { itemCondition: "https://schema.org/NewCondition" }
+        : {}),
     },
     // Sourced from src/lib/reviews.ts, which scopes every read to
     // status: "APPROVED" — never PENDING or REJECTED — and this is the
@@ -192,7 +195,7 @@ export default async function ProductPage({
           <span className="mx-2" aria-hidden="true">
             /
           </span>
-          <Link href={`/shop/${product.categorySlug}`} className="hover:text-royal">
+          <Link href={product.categorySlug === "laptops" ? "/laptops" : `/shop/${product.categorySlug}`} className="hover:text-royal">
             {product.category}
           </Link>
           <span className="mx-2" aria-hidden="true">
@@ -207,7 +210,13 @@ export default async function ProductPage({
           <div>
             <Badge variant="royal">{product.category}</Badge>
             <h1 className="mt-4 text-2xl font-bold text-navy sm:text-3xl">{product.name}</h1>
-            <p className="mt-1.5 text-sm font-medium text-slate">Brand: {product.brand}</p>
+            {product.brand && product.brandSlug ? (
+              <p className="mt-1.5 text-sm font-medium text-slate">
+                Brand: <Link href={`/brands/${product.brandSlug}`} className="hover:text-royal hover:underline">{product.brand}</Link>
+              </p>
+            ) : product.brand ? (
+              <p className="mt-1.5 text-sm font-medium text-slate">Brand: {product.brand}</p>
+            ) : null}
 
             <div className="mt-5 flex flex-wrap items-baseline gap-2.5">
               <p className="text-3xl font-bold text-navy">{formatPrice(product.price)}</p>

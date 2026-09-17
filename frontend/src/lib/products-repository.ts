@@ -53,6 +53,7 @@ export type RepositoryProduct = {
   categoryId: string;
   brand: string;
   brandId: string;
+  brandSlug: string;
   image: string;
   images: { url: string; altText: string | null; sortOrder: number; isPrimary: boolean }[];
   tags: string[];
@@ -96,6 +97,7 @@ function toProduct(p: ProductWithRelations): RepositoryProduct {
     // optional brandId for a future product created without one.
     brand: p.brand?.name ?? "",
     brandId: p.brand?.id ?? "",
+    brandSlug: p.brand?.slug ?? "",
     image,
     images: p.images.map((img) => ({
       url: img.url,
@@ -239,6 +241,72 @@ export async function getProductsByCategory(categorySlug: string, page = 1, page
     return { products: rows.map(toProduct), total };
   } catch (error) {
     throw wrapError(`getProductsByCategory("${categorySlug}") failed`, error);
+  }
+}
+
+export async function getLaptopsByUseCase(useCase: "student" | "business" | "office", page = 1, pageSize = 24): Promise<CategoryProductsResult> {
+  const skip = (page - 1) * pageSize;
+  try {
+    const categoryWhere = { category: { slug: "laptops" } };
+    
+    let orConditions: any[] = [];
+    
+    if (useCase === "student") {
+      // Strong student signals: Explicitly labeled student models or budget/school-oriented lines
+      // We look in name, shortDescription, and tags. (Omitting description to avoid boilerplate matches).
+      const keywords = ["student", "school", "education"];
+      const containsConditions = keywords.flatMap(k => [
+        { name: { contains: k, mode: "insensitive" as const } },
+        { shortDescription: { contains: k, mode: "insensitive" as const } }
+      ]);
+      orConditions = [
+        ...containsConditions,
+        { tags: { hasSome: ["Student", "Student Laptop", "Education"] } }
+      ];
+    } else if (useCase === "business") {
+      // Strong business signals: Enterprise product lines and explicit tags
+      const keywords = ["thinkpad", "latitude", "probook", "elitebook", "xps", "precision", "vostro", "business"];
+      const containsConditions = keywords.flatMap(k => [
+        { name: { contains: k, mode: "insensitive" as const } },
+        { shortDescription: { contains: k, mode: "insensitive" as const } }
+      ]);
+      orConditions = [
+        ...containsConditions,
+        { tags: { hasSome: ["Business", "Business Laptop", "Enterprise"] } }
+      ];
+    } else if (useCase === "office") {
+      // Office/Productivity signals
+      const keywords = ["office", "productivity"];
+      const containsConditions = keywords.flatMap(k => [
+        { name: { contains: k, mode: "insensitive" as const } },
+        { shortDescription: { contains: k, mode: "insensitive" as const } }
+      ]);
+      orConditions = [
+        ...containsConditions,
+        { tags: { hasSome: ["Office", "Office Laptop", "Productivity"] } }
+      ];
+    }
+
+    const where = {
+      status: "ACTIVE" as const,
+      ...categoryWhere,
+      ...(orConditions.length > 0 ? { OR: orConditions } : {})
+    };
+    
+    const [total, rows] = await db.$transaction([
+      db.product.count({ where }),
+      db.product.findMany({
+        where,
+        include: PRODUCT_INCLUDE,
+        orderBy: { createdAt: "asc" },
+        skip,
+        take: pageSize,
+      }),
+    ]);
+
+    return { products: rows.map(toProduct), total };
+  } catch (error) {
+    throw wrapError(`getLaptopsByUseCase("${useCase}") failed`, error);
   }
 }
 

@@ -103,7 +103,11 @@ export default async function BrandPage({
               priceCurrency: "PKR",
               price: String(product.price),
               availability: product.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-              itemCondition: "https://schema.org/NewCondition",
+              ...(product.tags.some(t => t.toLowerCase().includes("used") || t.toLowerCase().includes("refurbished"))
+                ? { itemCondition: "https://schema.org/UsedCondition" }
+                : product.tags.some(t => t.toLowerCase().includes("new"))
+                ? { itemCondition: "https://schema.org/NewCondition" }
+                : {}),
             }
           }
         }))
@@ -149,6 +153,16 @@ export default async function BrandPage({
               title={brand.name} 
               description={brand.description || `Shop ${brand.name} Laptops & Computers in Pakistan`} 
             />
+            {["hp", "dell", "lenovo"].includes(brand.slug.toLowerCase()) && (
+              <div className="mt-4 flex flex-wrap gap-3">
+                <Link href="/laptops" className="inline-flex items-center text-sm font-semibold text-royal hover:text-navy transition-colors">
+                  View All Laptops &rarr;
+                </Link>
+                <Link href="/laptops/business" className="inline-flex items-center text-sm font-semibold text-royal hover:text-navy transition-colors">
+                  Shop Business Laptops &rarr;
+                </Link>
+              </div>
+            )}
           </div>
         </div>
 

@@ -11,10 +11,8 @@
 // transaction client (`tx`) so the log write and the business mutation
 // commit or roll back together; see each action file for the exact
 // integration.
-import "server-only";
-import { db } from "@/lib/db";
-import type { Prisma } from "@/generated/prisma/client";
-import type { ActivityAction } from "@/generated/prisma/enums";
+import { db } from "../db";
+import type { Prisma, ActivityAction } from '@prisma/client';
 
 export type LogActivityInput = {
   adminId: string;

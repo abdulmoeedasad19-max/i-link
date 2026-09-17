@@ -64,7 +64,7 @@ function toCategory(row: {
     id: row.id,
     name: row.name,
     slug: row.slug,
-    href: `/shop/${row.slug}`,
+    href: row.slug === "laptops" ? "/laptops" : `/shop/${row.slug}`,
     icon: row.icon ?? "",
     description: row.description ?? "",
     seoTitle: row.seoTitle ?? null,

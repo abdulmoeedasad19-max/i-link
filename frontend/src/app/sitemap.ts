@@ -19,6 +19,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${base}/`, changeFrequency: "weekly", priority: 1 },
     { url: `${base}/shop`, changeFrequency: "daily", priority: 0.9 },
+    { url: `${base}/laptops`, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${base}/laptops/student`, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${base}/laptops/business`, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${base}/laptops/office`, changeFrequency: "weekly", priority: 0.7 },
     { url: `${base}/business`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/about`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/contact`, changeFrequency: "monthly", priority: 0.5 },
@@ -47,11 +51,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // broader mega-menu taxonomy still includes a handful of slugs with no
   // Category row yet (e.g. "Servers"), which correctly stay out of the
   // sitemap until an admin actually creates that category.
-  const categoryRoutes: MetadataRoute.Sitemap = (await getAllCategories()).map((category) => ({
-    url: `${base}${category.href}`,
-    changeFrequency: "weekly",
-    priority: 0.6,
-  }));
+  const categoryRoutes: MetadataRoute.Sitemap = (await getAllCategories())
+    .filter(category => category.slug !== 'laptops')
+    .map((category) => ({
+      url: `${base}${category.href}`,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    }));
 
   const productRoutes: MetadataRoute.Sitemap = (await getAllProducts()).map((product) => ({
     url: `${base}/product/${product.slug}`,

@@ -47,7 +47,7 @@ export const shopMegaMenu: MegaMenuCategory[] = [
     name: "Computers",
     href: "/shop/computers",
     items: [
-      { name: "Laptops", href: "/shop/laptops" },
+      { name: "Laptops", href: "/laptops" },
       { name: "Desktop PCs", href: "/shop/desktop-pcs" },
       { name: "All-in-One PCs", href: "/shop/all-in-one-pcs" },
       { name: "Gaming PCs", href: "/shop/gaming-pcs" },
@@ -120,7 +120,7 @@ export type Category = {
 export const categories: Category[] = [
   {
     name: "Laptops",
-    href: "/shop/laptops",
+    href: "/laptops",
     icon: "Laptop",
     description: "Business, gaming and creator laptops from the world's leading brands.",
     image: "/categories/laptops.jpg",
@@ -294,7 +294,7 @@ export const brands: string[] = [
 
 export const footerLinks = {
   products: [
-    { name: "Laptops", href: "/shop/laptops" },
+    { name: "Laptops", href: "/laptops" },
     { name: "Desktop PCs", href: "/shop/desktop-pcs" },
     { name: "Gaming PCs", href: "/shop/gaming-pcs" },
     { name: "Monitors", href: "/shop/monitors" },

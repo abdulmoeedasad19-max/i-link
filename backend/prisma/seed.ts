@@ -12,7 +12,7 @@
 // Never touches User, Account, Session, Address, CartItem, WishlistItem,
 // Order, or OrderItem.
 import { PrismaPg } from "@prisma/adapter-pg";
-import { PrismaClient } from "@/generated/prisma/client";
+import { PrismaClient } from '@prisma/client';
 import { getAllProducts } from "@/lib/products";
 import { categories as staticCategories } from "@/lib/site-config";
 

@@ -21,7 +21,7 @@ app.use('/api/storefront', storefrontRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/account', accountRoutes);
 
-app.get('/', (req, res) => {
+app.get(['/', '/api'], (req, res) => {
   res.send('Server is running');
 });
 

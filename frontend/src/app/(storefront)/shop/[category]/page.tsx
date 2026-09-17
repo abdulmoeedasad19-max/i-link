@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { PackageSearch } from "lucide-react";
 import Container from "@/components/ui/container";
 import SectionHeading from "@/components/ui/section-heading";
@@ -121,6 +121,11 @@ export default async function CategoryPage({
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
   const { category: slug } = await params;
+
+  if (slug === "laptops") {
+    permanentRedirect("/laptops");
+  }
+
   const category = await resolveCategory(slug);
 
   if (!category) {
@@ -168,7 +173,11 @@ export default async function CategoryPage({
               priceCurrency: "PKR",
               price: String(product.price),
               availability: product.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-              itemCondition: "https://schema.org/NewCondition",
+              ...(product.tags.some(t => t.toLowerCase().includes("used") || t.toLowerCase().includes("refurbished"))
+                ? { itemCondition: "https://schema.org/UsedCondition" }
+                : product.tags.some(t => t.toLowerCase().includes("new"))
+                ? { itemCondition: "https://schema.org/NewCondition" }
+                : {}),
             }
           }
         }))

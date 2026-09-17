@@ -7,7 +7,9 @@ const { authMiddleware, adminMiddleware } = require('../middlewares/auth');
 // Apply admin auth middlewares to all admin routes
 router.use(authMiddleware, adminMiddleware);
 
-const controllersDir = path.join(__dirname, '../controllers');
+const controllersDir = fs.existsSync(path.join(__dirname, '../controllers'))
+  ? path.join(__dirname, '../controllers')
+  : path.join(__dirname, 'src/controllers');
 
 // Dynamically load all controllers that start with "admin"
 fs.readdirSync(controllersDir).forEach((file) => {
