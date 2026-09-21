@@ -40,10 +40,12 @@ yarn-error.log*
 next-env.d.ts
 
 # prisma generated (frontend/backend)
-src/generated/prisma/
+frontend/src/generated/prisma/
+backend/node_modules/
+frontend/node_modules/
 
 # file uploads
-public/uploads/
+frontend/public/uploads/
 
 *.zip
 db-export.json
