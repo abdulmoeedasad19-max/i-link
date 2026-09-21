@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { requireAdmin } from "@/lib/admin/require-admin";
-import { getAdminBrandOptions, getAdminCategoryOptions } from "@/lib/admin/products";
+import { getAdminBrandOptions, getAdminCategoryOptions, getAdminCollections } from "@/lib/admin/products";
 import ProductForm from "@/components/admin/products/product-form";
 
 export const metadata: Metadata = {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default async function NewProductPage() {
   await requireAdmin();
 
-  const [categories, brands] = await Promise.all([getAdminCategoryOptions(), getAdminBrandOptions()]);
+  const [categories, brands, collections] = await Promise.all([getAdminCategoryOptions(), getAdminBrandOptions(), getAdminCollections()]);
 
   return (
     <div>
@@ -36,7 +36,7 @@ export default async function NewProductPage() {
         </div>
       ) : (
         <div className="mt-6 max-w-3xl">
-          <ProductForm mode="create" categories={categories} brands={brands} />
+          <ProductForm mode="create" categories={categories} brands={brands} collections={collections} />
         </div>
       )}
     </div>

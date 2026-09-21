@@ -8,7 +8,7 @@ import { safeJsonLd } from "@/lib/utils";
 import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 import "../globals.css";
 
-const siteUrl = "https://www.ilinksystems.com";
+const siteUrl = "https://ilink.com.pk";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

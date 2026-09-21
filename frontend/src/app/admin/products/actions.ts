@@ -50,6 +50,7 @@ const productSchema = z
     status: z.enum(["DRAFT", "ACTIVE", "ARCHIVED"], { message: "Please select a valid status." }),
     featured: z.boolean(),
     tags: z.array(z.string().trim().min(1).max(50)).max(20, "A product can have at most 20 tags."),
+    collectionIds: z.array(z.string().trim()).optional(),
     // Already-uploaded local image URLs, staged client-side by
     // ProductImageStagingUpload before the product itself exists — see
     // uploadStagedProductImage below. Each is trusted only as far as
@@ -172,6 +173,7 @@ function readFormValues(formData: FormData) {
     // ProductTagsInput renders one hidden <input name="tags"> per chip —
     // getAll() collects every one of them, in the order they appear.
     tags: formData.getAll("tags").map(String),
+    collectionIds: formData.getAll("collectionIds").map(String),
     // ProductImageStagingUpload renders one hidden <input name="imageUrls">
     // per already-uploaded image, in display/primary order — same
     // getAll() convention as tags above.
@@ -215,6 +217,21 @@ export async function createProduct(
     if (skuTaken) return { errors: { sku: "A product with this SKU already exists." } };
   }
 
+  if (data.collectionIds && data.collectionIds.length > 0) {
+    // @ts-ignore
+    const validCollections = await db.collection.findMany({
+      where: { id: { in: data.collectionIds } },
+      select: { id: true, categoryId: true }
+    });
+    if (validCollections.length !== data.collectionIds.length) {
+      return { errors: { form: "One or more selected collections do not exist." } };
+    }
+    const invalidCategory = validCollections.find((c: any) => c.categoryId !== data.categoryId);
+    if (invalidCategory) {
+      return { errors: { form: "One or more selected collections do not belong to the selected category." } };
+    }
+  }
+
   try {
     await db.$transaction(async (tx) => {
       const product = await tx.product.create({
@@ -238,6 +255,13 @@ export async function createProduct(
         },
         select: { id: true },
       });
+
+      if (data.collectionIds && data.collectionIds.length > 0) {
+        // @ts-ignore
+        await tx.productCollection.createMany({
+          data: data.collectionIds.map(cid => ({ productId: product.id, collectionId: cid })),
+        });
+      }
 
       // Images were already saved to local storage before this submit
       // (see ProductImageStagingUpload/uploadStagedProductImage) — this
@@ -356,6 +380,21 @@ export async function updateProduct(
   if ((existing.seoTitle ?? null) !== (data.seoTitle ?? null)) changedFields.push("seoTitle");
   if ((existing.seoDescription ?? null) !== (data.seoDescription ?? null)) changedFields.push("seoDescription");
 
+  if (data.collectionIds && data.collectionIds.length > 0) {
+    // @ts-ignore
+    const validCollections = await db.collection.findMany({
+      where: { id: { in: data.collectionIds } },
+      select: { id: true, categoryId: true }
+    });
+    if (validCollections.length !== data.collectionIds.length) {
+      return { errors: { form: "One or more selected collections do not exist." } };
+    }
+    const invalidCategory = validCollections.find((c: any) => c.categoryId !== data.categoryId);
+    if (invalidCategory) {
+      return { errors: { form: "One or more selected collections do not belong to the selected category." } };
+    }
+  }
+
   try {
     await db.$transaction(async (tx) => {
       await tx.product.update({
@@ -378,6 +417,17 @@ export async function updateProduct(
           featured: data.featured,
         },
       });
+
+      if (data.collectionIds) {
+        // @ts-ignore
+        await tx.productCollection.deleteMany({ where: { productId: id } });
+        if (data.collectionIds.length > 0) {
+          // @ts-ignore
+          await tx.productCollection.createMany({
+            data: data.collectionIds.map(cid => ({ productId: id, collectionId: cid })),
+          });
+        }
+      }
 
       // Phase 1: Product Slug SEO Redirect System
       if (existing.slug !== data.slug) {

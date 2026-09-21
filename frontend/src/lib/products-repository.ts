@@ -244,71 +244,7 @@ export async function getProductsByCategory(categorySlug: string, page = 1, page
   }
 }
 
-export async function getLaptopsByUseCase(useCase: "student" | "business" | "office", page = 1, pageSize = 24): Promise<CategoryProductsResult> {
-  const skip = (page - 1) * pageSize;
-  try {
-    const categoryWhere = { category: { slug: "laptops" } };
-    
-    let orConditions: any[] = [];
-    
-    if (useCase === "student") {
-      // Strong student signals: Explicitly labeled student models or budget/school-oriented lines
-      // We look in name, shortDescription, and tags. (Omitting description to avoid boilerplate matches).
-      const keywords = ["student", "school", "education"];
-      const containsConditions = keywords.flatMap(k => [
-        { name: { contains: k, mode: "insensitive" as const } },
-        { shortDescription: { contains: k, mode: "insensitive" as const } }
-      ]);
-      orConditions = [
-        ...containsConditions,
-        { tags: { hasSome: ["Student", "Student Laptop", "Education"] } }
-      ];
-    } else if (useCase === "business") {
-      // Strong business signals: Enterprise product lines and explicit tags
-      const keywords = ["thinkpad", "latitude", "probook", "elitebook", "xps", "precision", "vostro", "business"];
-      const containsConditions = keywords.flatMap(k => [
-        { name: { contains: k, mode: "insensitive" as const } },
-        { shortDescription: { contains: k, mode: "insensitive" as const } }
-      ]);
-      orConditions = [
-        ...containsConditions,
-        { tags: { hasSome: ["Business", "Business Laptop", "Enterprise"] } }
-      ];
-    } else if (useCase === "office") {
-      // Office/Productivity signals
-      const keywords = ["office", "productivity"];
-      const containsConditions = keywords.flatMap(k => [
-        { name: { contains: k, mode: "insensitive" as const } },
-        { shortDescription: { contains: k, mode: "insensitive" as const } }
-      ]);
-      orConditions = [
-        ...containsConditions,
-        { tags: { hasSome: ["Office", "Office Laptop", "Productivity"] } }
-      ];
-    }
 
-    const where = {
-      status: "ACTIVE" as const,
-      ...categoryWhere,
-      ...(orConditions.length > 0 ? { OR: orConditions } : {})
-    };
-    
-    const [total, rows] = await db.$transaction([
-      db.product.count({ where }),
-      db.product.findMany({
-        where,
-        include: PRODUCT_INCLUDE,
-        orderBy: { createdAt: "asc" },
-        skip,
-        take: pageSize,
-      }),
-    ]);
-
-    return { products: rows.map(toProduct), total };
-  } catch (error) {
-    throw wrapError(`getLaptopsByUseCase("${useCase}") failed`, error);
-  }
-}
 
 /** Phase 4.4.10 — fresh, DB-backed display data for a specific set of
  * product ids, one query for however many ids the caller has (never N
@@ -439,5 +375,64 @@ export async function getRelatedProducts(productId: string, categoryId: string, 
     return results.map(toProduct);
   } catch (error) {
     throw wrapError(`getRelatedProducts("${productId}") failed`, error);
+  }
+}
+
+export async function getProductsByCollectionSlug(collectionSlug: string, page = 1, pageSize = 24): Promise<CategoryProductsResult> {
+  const skip = (page - 1) * pageSize;
+  try {
+    const where = {
+      status: "ACTIVE" as const,
+      collections: {
+        some: {
+          collection: { slug: collectionSlug }
+        }
+      }
+    };
+    
+    const [total, rows] = await db.$transaction([
+      // @ts-ignore
+      db.product.count({ where }),
+      // @ts-ignore
+      db.product.findMany({
+        where,
+        include: PRODUCT_INCLUDE,
+        orderBy: { createdAt: "asc" },
+        skip,
+        take: pageSize,
+      }),
+    ]);
+
+    return { products: rows.map(toProduct), total };
+  } catch (error) {
+    throw wrapError(`getProductsByCollectionSlug("${collectionSlug}") failed`, error);
+  }
+}
+
+export async function getLaptopsByMaxPrice(maxPrice: number, page = 1, pageSize = 24): Promise<CategoryProductsResult> {
+  const skip = (page - 1) * pageSize;
+  try {
+    const where = {
+      status: "ACTIVE" as const,
+      category: { slug: "laptops" },
+      price: { lte: maxPrice }
+    };
+    
+    const [total, rows] = await db.$transaction([
+      // @ts-ignore
+      db.product.count({ where }),
+      // @ts-ignore
+      db.product.findMany({
+        where,
+        include: PRODUCT_INCLUDE,
+        orderBy: { price: "asc" },
+        skip,
+        take: pageSize,
+      }),
+    ]);
+
+    return { products: rows.map(toProduct), total };
+  } catch (error) {
+    throw wrapError(`getLaptopsByMaxPrice(${maxPrice}) failed`, error);
   }
 }

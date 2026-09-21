@@ -5,7 +5,7 @@ import Container from "@/components/ui/container";
 import SectionHeading from "@/components/ui/section-heading";
 import ProductCard from "@/components/sections/product-card";
 import Pagination from "@/components/ui/pagination";
-import { getLaptopsByUseCase } from "@/lib/products-repository";
+import { getProductsByCollectionSlug } from "@/lib/products-repository";
 import { siteConfig } from "@/lib/site-config";
 import { safeJsonLd } from "@/lib/utils";
 
@@ -29,7 +29,7 @@ export default async function OfficeLaptopsPage({
   let page = typeof pageParam === "string" ? parseInt(pageParam, 10) : 1;
   if (isNaN(page) || page < 1) page = 1;
 
-  const { products, total } = await getLaptopsByUseCase("office", page, PAGE_SIZE);
+  const { products, total } = await getProductsByCollectionSlug("office", page, PAGE_SIZE);
   const totalPages = Math.ceil(total / PAGE_SIZE);
 
   const canonicalPath = page > 1 ? `/laptops/office?page=${page}` : `/laptops/office`;

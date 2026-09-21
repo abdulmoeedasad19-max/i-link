@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "i.Link Systems & Solutions",
   shortName: "i.Link",
-  url: "https://www.ilinksystems.com",
+  url: "https://ilink.com.pk",
   phone: "0331 8852808",
   phoneHref: "tel:+923318852808",
   email: "ilink.isb@gmail.com",
@@ -311,6 +311,8 @@ export const footerLinks = {
     { name: "Technical Support", href: "/support" },
   ],
   business: [
+    { name: "Laptop Rental", href: "/laptop-rental" },
+    { name: "Projector Rental", href: "/projector-rental" },
     { name: "Corporate & Government", href: "/business" },
     { name: "Bulk Order Quotation", href: "/business/quotation" },
     { name: "Tender Services", href: "/business/tenders" },

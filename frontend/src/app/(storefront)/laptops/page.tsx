@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { PackageSearch, Laptop, GraduationCap, Briefcase, Building2 } from "lucide-react";
+import { GraduationCap, Briefcase, Building2, PackageSearch, Code, Gamepad2, Laptop } from "lucide-react";
 import Container from "@/components/ui/container";
 import SectionHeading from "@/components/ui/section-heading";
 import ProductCard from "@/components/sections/product-card";
@@ -101,32 +101,32 @@ export default async function LaptopsPage({
           />
         </div>
 
-        {/* Use Cases Navigation */}
-        <div className="mb-16">
-          <h2 className="mb-6 text-xl font-bold text-navy">Shop Laptops by Use</h2>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-            <Link href="/laptops/student" className="group flex items-center gap-4 rounded-xl border border-light-gray bg-white p-5 transition-all hover:border-royal hover:shadow-md">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-royal/10 text-royal group-hover:bg-royal group-hover:text-white transition-colors">
+        {/* Collections Navigation */}
+        <div className="mb-12">
+          <h2 className="mb-6 text-xl font-bold text-navy">Shop by Use Case</h2>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <Link href="/laptops/student" className="flex items-center gap-4 rounded-2xl border border-light-gray bg-white p-4 transition-all hover:border-royal hover:shadow-md">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-royal/10 text-royal">
                 <GraduationCap className="h-6 w-6" />
               </div>
               <div>
                 <h3 className="font-bold text-navy">Student Laptops</h3>
-                <p className="text-sm text-slate">Affordable & reliable for studies</p>
+                <p className="text-sm text-slate">Affordable & portable</p>
               </div>
             </Link>
             
-            <Link href="/laptops/business" className="group flex items-center gap-4 rounded-xl border border-light-gray bg-white p-5 transition-all hover:border-royal hover:shadow-md">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-royal/10 text-royal group-hover:bg-royal group-hover:text-white transition-colors">
+            <Link href="/laptops/business" className="flex items-center gap-4 rounded-2xl border border-light-gray bg-white p-4 transition-all hover:border-royal hover:shadow-md">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-royal/10 text-royal">
                 <Briefcase className="h-6 w-6" />
               </div>
               <div>
                 <h3 className="font-bold text-navy">Business Laptops</h3>
-                <p className="text-sm text-slate">Premium security & performance</p>
+                <p className="text-sm text-slate">Premium security & durability</p>
               </div>
             </Link>
 
-            <Link href="/laptops/office" className="group flex items-center gap-4 rounded-xl border border-light-gray bg-white p-5 transition-all hover:border-royal hover:shadow-md">
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-royal/10 text-royal group-hover:bg-royal group-hover:text-white transition-colors">
+            <Link href="/laptops/office" className="flex items-center gap-4 rounded-2xl border border-light-gray bg-white p-4 transition-all hover:border-royal hover:shadow-md">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-royal/10 text-royal">
                 <Building2 className="h-6 w-6" />
               </div>
               <div>
@@ -134,11 +134,31 @@ export default async function LaptopsPage({
                 <p className="text-sm text-slate">Durable for daily work tasks</p>
               </div>
             </Link>
+
+            <Link href="/laptops/programming" className="flex items-center gap-4 rounded-2xl border border-light-gray bg-white p-4 transition-all hover:border-royal hover:shadow-md">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-royal/10 text-royal">
+                <Code className="h-6 w-6" />
+              </div>
+              <div>
+                <h3 className="font-bold text-navy">Programming Laptops</h3>
+                <p className="text-sm text-slate">High RAM & performance</p>
+              </div>
+            </Link>
+
+            <Link href="/laptops/gaming" className="flex items-center gap-4 rounded-2xl border border-light-gray bg-white p-4 transition-all hover:border-royal hover:shadow-md">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-royal/10 text-royal">
+                <Gamepad2 className="h-6 w-6" />
+              </div>
+              <div>
+                <h3 className="font-bold text-navy">Gaming Laptops</h3>
+                <p className="text-sm text-slate">Dedicated GPUs & speed</p>
+              </div>
+            </Link>
           </div>
         </div>
 
         {/* Brands Navigation */}
-        <div className="mb-16">
+        <div className="mb-12">
           <h2 className="mb-6 text-xl font-bold text-navy">Shop Laptops by Brand</h2>
           <div className="flex flex-wrap gap-3">
             <Link href="/brands/hp" className="rounded-full border border-light-gray bg-white px-6 py-2.5 text-sm font-medium text-navy transition-colors hover:border-royal hover:text-royal">
@@ -149,6 +169,25 @@ export default async function LaptopsPage({
             </Link>
             <Link href="/brands/lenovo" className="rounded-full border border-light-gray bg-white px-6 py-2.5 text-sm font-medium text-navy transition-colors hover:border-royal hover:text-royal">
               Lenovo Laptops
+            </Link>
+          </div>
+        </div>
+
+        {/* Price Navigation */}
+        <div className="mb-16">
+          <h2 className="mb-6 text-xl font-bold text-navy">Shop Laptops by Price</h2>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/laptops/under-50000" className="rounded-full border border-light-gray bg-white px-6 py-2.5 text-sm font-medium text-navy transition-colors hover:border-royal hover:text-royal">
+              Under 50,000
+            </Link>
+            <Link href="/laptops/under-75000" className="rounded-full border border-light-gray bg-white px-6 py-2.5 text-sm font-medium text-navy transition-colors hover:border-royal hover:text-royal">
+              Under 75,000
+            </Link>
+            <Link href="/laptops/under-100000" className="rounded-full border border-light-gray bg-white px-6 py-2.5 text-sm font-medium text-navy transition-colors hover:border-royal hover:text-royal">
+              Under 100,000
+            </Link>
+            <Link href="/laptops/under-150000" className="rounded-full border border-light-gray bg-white px-6 py-2.5 text-sm font-medium text-navy transition-colors hover:border-royal hover:text-royal">
+              Under 150,000
             </Link>
           </div>
         </div>

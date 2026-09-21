@@ -45,6 +45,7 @@ export type AdminProductDetail = AdminProductListItem & {
   tags: string[];
   seoTitle: string | null;
   seoDescription: string | null;
+  collectionIds: string[];
 };
 
 /** Total catalog size across every status — backs the dashboard's Products
@@ -69,6 +70,8 @@ const ADMIN_DETAIL_INCLUDE = {
   category: true,
   brand: true,
   images: { orderBy: { sortOrder: "asc" as const } },
+  // @ts-ignore
+  collections: { select: { collectionId: true } },
 } satisfies Prisma.ProductInclude;
 
 type ProductWithAdminRelations = Prisma.ProductGetPayload<{ include: typeof ADMIN_LIST_INCLUDE }>;
@@ -118,6 +121,8 @@ function toDetail(p: ProductWithAdminDetailRelations): AdminProductDetail {
     tags: p.tags,
     seoTitle: p.seoTitle,
     seoDescription: p.seoDescription,
+    // @ts-ignore
+    collectionIds: p.collections.map((c: any) => c.collectionId),
   };
 }
 
@@ -203,4 +208,9 @@ export function slugify(input: string): string {
     .trim()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
+}
+
+export async function getAdminCollections(): Promise<{ id: string; name: string; categoryId: string }[]> {
+  // @ts-ignore
+  return db.collection.findMany({ orderBy: { name: "asc" }, select: { id: true, name: true, categoryId: true } });
 }

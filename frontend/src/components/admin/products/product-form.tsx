@@ -16,11 +16,13 @@ export default function ProductForm({
   product,
   categories,
   brands,
+  collections,
 }: {
   mode: "create" | "edit";
   product?: AdminProductDetail;
   categories: { id: string; name: string }[];
   brands: { id: string; name: string }[];
+  collections?: { id: string; name: string; categoryId: string }[];
 }) {
   const action = mode === "edit" ? updateProduct : createProduct;
   const [state, formAction, isPending] = useActionState(action, initialState);
@@ -32,6 +34,7 @@ export default function ProductForm({
   const [name, setName] = useState(product?.name ?? "");
   const [slug, setSlug] = useState(product?.slug ?? "");
   const [description, setDescription] = useState(product?.description ?? "");
+  const [categoryId, setCategoryId] = useState(product?.categoryId ?? "");
 
   const stockInputRef = useRef<HTMLInputElement>(null);
   function setStockQuickly(value: number) {
@@ -154,7 +157,8 @@ export default function ProductForm({
               id="product-category"
               name="categoryId"
               required
-              defaultValue={product?.categoryId ?? ""}
+              value={categoryId}
+              onChange={(e) => setCategoryId(e.target.value)}
               aria-invalid={Boolean(errors.categoryId)}
               className={inputClass(Boolean(errors.categoryId))}
             >
@@ -186,6 +190,26 @@ export default function ProductForm({
             </select>
           </Field>
         </div>
+
+        {categoryId && collections && collections.some(c => c.categoryId === categoryId) && (
+          <div className="mt-6 border-t border-light-gray pt-6">
+            <h3 className="text-sm font-bold text-navy mb-3">Category Collections</h3>
+            <div className="flex flex-col gap-2">
+              {collections.filter(c => c.categoryId === categoryId).map(collection => (
+                <label key={collection.id} className="flex items-center gap-2 text-sm text-slate">
+                  <input
+                    type="checkbox"
+                    name="collectionIds"
+                    value={collection.id}
+                    defaultChecked={product?.collectionIds?.includes(collection.id)}
+                    className="h-4 w-4 rounded border-light-gray text-royal focus:ring-royal/30"
+                  />
+                  {collection.name}
+                </label>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
 
       <div className="rounded-2xl border border-light-gray bg-white p-5 premium-shadow sm:p-6">

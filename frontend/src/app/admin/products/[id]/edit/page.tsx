@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { requireAdmin } from "@/lib/admin/require-admin";
-import { getAdminBrandOptions, getAdminCategoryOptions, getAdminProductById } from "@/lib/admin/products";
+import { getAdminBrandOptions, getAdminCategoryOptions, getAdminProductById, getAdminCollections } from "@/lib/admin/products";
 import ProductForm from "@/components/admin/products/product-form";
 import ProductImagesManager from "@/components/admin/products/product-images-manager";
 
@@ -15,10 +15,11 @@ export default async function EditProductPage({ params }: { params: Promise<{ id
   await requireAdmin();
 
   const { id } = await params;
-  const [product, categories, brands] = await Promise.all([
+  const [product, categories, brands, collections] = await Promise.all([
     getAdminProductById(id),
     getAdminCategoryOptions(),
     getAdminBrandOptions(),
+    getAdminCollections(),
   ]);
 
   if (!product) {
@@ -39,7 +40,7 @@ export default async function EditProductPage({ params }: { params: Promise<{ id
       <p className="mt-1 text-sm text-slate">{product.name}</p>
 
       <div className="mt-6 max-w-3xl space-y-6">
-        <ProductForm mode="edit" product={product} categories={categories} brands={brands} />
+        <ProductForm mode="edit" product={product} categories={categories} brands={brands} collections={collections} />
         <ProductImagesManager productId={product.id} images={product.images} />
       </div>
     </div>
