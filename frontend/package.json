@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && echo 'Build complete successfully'",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
@@ -36,6 +36,10 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "^16.3.5"
+  },
+  "overrides": {
+    "deepmerge-ts": "^8.0.0",
+    "mysql2": "^3.24.0"
   },
   "allowScripts": {
     "prisma@7.10.0": true,
