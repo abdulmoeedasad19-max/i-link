@@ -96,11 +96,11 @@ const faqJsonLd = {
 };
 
 export default async function LaptopRentalPage() {
-  // Fetch up to 6 laptops to showcase as examples. 
+  // Fetch up to 8 laptops to showcase as examples. 
   // We use the existing catalog but present them strictly as "examples".
   let products: RepositoryProduct[] = [];
   try {
-    const res = await getProductsByCategory("laptops", 1, 6);
+    const res = await getProductsByCategory("laptops", 1, 8);
     products = res.products;
   } catch (err) {
     console.error("Laptop Rental page failed to load example products:", err);
@@ -205,7 +205,7 @@ export default async function LaptopRentalPage() {
                 description: "Once the requirement and quotation are agreed, we arrange the rental accordingly.",
               },
             ].map((s, i) => (
-              <FadeIn key={s.step} delay={i * 100} className="relative text-center">
+              <FadeIn key={s.step} delay={i * 0.1} className="relative text-center">
                 <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-royal/10 text-xl font-bold text-royal">
                   {s.step}
                 </div>
@@ -229,7 +229,7 @@ export default async function LaptopRentalPage() {
             {useCases.map((useCase, index) => {
               const Icon = useCase.icon;
               return (
-                <FadeIn key={useCase.title} delay={index * 50} className="rounded-2xl border border-light-gray bg-white p-8 premium-shadow transition-shadow hover:shadow-xl">
+                <FadeIn key={useCase.title} delay={index * 0.05} className="rounded-2xl border border-light-gray bg-white p-8 premium-shadow transition-shadow hover:shadow-xl">
                   <div className="inline-flex rounded-xl bg-royal/10 p-3 text-royal">
                     <Icon className="h-6 w-6" aria-hidden="true" />
                   </div>
