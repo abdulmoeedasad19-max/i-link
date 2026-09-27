@@ -125,6 +125,60 @@ export default async function StudentLaptopsPage({
             </p>
           </div>
         )}
+        
+        {/* SEO Content Section */}
+        <div className="mt-24 space-y-12 border-t border-light-gray pt-16">
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">Choosing the Right Student Laptop</h2>
+            <div className="prose prose-slate max-w-none text-slate">
+              <p>
+                Finding the best laptop for students involves balancing portability, battery life, and enough performance to handle daily university and school workloads. Whether you are typing assignments, researching online, attending virtual classes, or working on complex projects, a reliable student laptop is essential.
+              </p>
+              <p className="mt-4">
+                At i.Link Systems, our student laptop collection features affordable options from trusted brands like <Link href="/brands/hp" className="text-royal hover:underline">HP</Link>, <Link href="/brands/dell" className="text-royal hover:underline">Dell</Link>, and <Link href="/brands/lenovo" className="text-royal hover:underline">Lenovo</Link>, providing excellent value for different academic requirements.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">What to Consider for University & School</h2>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">General Studies</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  For essay writing, browsing, and reading, an Intel Core i3 or i5 (or AMD Ryzen 3/5) processor is sufficient. We recommend a minimum of 8GB RAM and a fast SSD (256GB or more) to ensure quick boot times and responsive document editing.
+                </p>
+              </div>
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Portability & Battery</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  Students carrying laptops between classes should look for lightweight models (13 to 14-inch screens) to save backpack space. Solid battery life is crucial if you cannot always plug in during lectures.
+                </p>
+              </div>
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Heavier Workloads</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  If your coursework involves engineering software, graphic design, or heavy data analysis, consider upgrading to 16GB RAM and a more powerful CPU. You may also want to browse our <Link href="/laptops/programming" className="text-royal hover:underline">programming laptops</Link> for higher performance specifications.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">Explore Related Laptop Options</h2>
+            <div className="flex flex-wrap gap-3">
+              <Link href="/laptops" className="rounded-full border border-light-gray bg-white px-4 py-2 text-sm font-medium text-navy transition-colors hover:border-royal hover:text-royal">
+                All Laptops
+              </Link>
+              <Link href="/laptops/under-50000" className="rounded-full border border-light-gray bg-white px-4 py-2 text-sm font-medium text-navy transition-colors hover:border-royal hover:text-royal">
+                Laptops under 50,000
+              </Link>
+              <Link href="/laptops/under-75000" className="rounded-full border border-light-gray bg-white px-4 py-2 text-sm font-medium text-navy transition-colors hover:border-royal hover:text-royal">
+                Laptops under 75,000
+              </Link>
+            </div>
+          </section>
+        </div>
       </Container>
     </div>
   );

@@ -199,6 +199,97 @@ export default async function BrandPage({
             </p>
           </div>
         )}
+        
+        {/* SEO Content Section - Brand Specific */}
+        {brand.slug.toLowerCase() === "hp" && (
+          <div className="mt-24 space-y-12 border-t border-light-gray pt-16">
+            <section>
+              <h2 className="text-2xl font-bold text-navy mb-4">HP Laptops in Pakistan</h2>
+              <div className="prose prose-slate max-w-none text-slate">
+                <p>
+                  Hewlett-Packard (HP) remains one of the most reliable and widely adopted laptop brands in Pakistan. Known for balancing performance with sleek design, HP laptops cater to a broad spectrum of users. Our inventory primarily focuses on HP's premium business and productivity lines, which offer robust build quality and essential security features.
+                </p>
+              </div>
+            </section>
+            <section>
+              <h2 className="text-2xl font-bold text-navy mb-4">Popular HP Laptop Categories</h2>
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+                <div className="rounded-xl bg-soft-gray p-6">
+                  <h3 className="font-bold text-navy mb-2">HP EliteBook & ProBook (Business)</h3>
+                  <p className="text-sm text-slate leading-relaxed">
+                    Designed for enterprise professionals, the EliteBook and ProBook series are mainstays in our <Link href="/laptops/business" className="text-royal hover:underline">business laptops</Link> collection. They feature durable aluminum chassis, spill-resistant keyboards, and hardware-level security, making them ideal for rigorous daily office workloads.
+                  </p>
+                </div>
+                <div className="rounded-xl bg-soft-gray p-6">
+                  <h3 className="font-bold text-navy mb-2">Everyday & Student Laptops</h3>
+                  <p className="text-sm text-slate leading-relaxed">
+                    For general computing, HP offers versatile models that perfectly fit the requirements of <Link href="/laptops/student" className="text-royal hover:underline">student laptops</Link>. These models provide reliable battery life and clear displays, ensuring you can manage coursework and web browsing efficiently.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        )}
+
+        {brand.slug.toLowerCase() === "dell" && (
+          <div className="mt-24 space-y-12 border-t border-light-gray pt-16">
+            <section>
+              <h2 className="text-2xl font-bold text-navy mb-4">Dell Laptops in Pakistan</h2>
+              <div className="prose prose-slate max-w-none text-slate">
+                <p>
+                  Dell is globally recognized for manufacturing reliable, performance-driven machines. In Pakistan, Dell laptops are a top choice for both corporate offices and independent professionals. At i.Link Systems, a significant portion of our active inventory consists of high-quality Dell business machines, reflecting the brand's enduring popularity and durability.
+                </p>
+              </div>
+            </section>
+            <section>
+              <h2 className="text-2xl font-bold text-navy mb-4">Comparing Dell Laptops</h2>
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+                <div className="rounded-xl bg-soft-gray p-6">
+                  <h3 className="font-bold text-navy mb-2">Dell Latitude Series</h3>
+                  <p className="text-sm text-slate leading-relaxed">
+                    The Latitude series forms the core of our <Link href="/laptops/business" className="text-royal hover:underline">business laptop</Link> offerings. Built with premium materials, extended battery options, and comprehensive port selections, Latitudes are engineered to survive daily commutes and demanding office environments.
+                  </p>
+                </div>
+                <div className="rounded-xl bg-soft-gray p-6">
+                  <h3 className="font-bold text-navy mb-2">Performance & Office Use</h3>
+                  <p className="text-sm text-slate leading-relaxed">
+                    Whether you are outfitting a small <Link href="/laptops/office" className="text-royal hover:underline">office</Link> or need a dependable machine for heavy multitasking, Dell provides reliable Intel Core processors and easily upgradeable RAM/storage configurations to keep your business running smoothly.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        )}
+
+        {brand.slug.toLowerCase() === "lenovo" && (
+          <div className="mt-24 space-y-12 border-t border-light-gray pt-16">
+            <section>
+              <h2 className="text-2xl font-bold text-navy mb-4">Lenovo Laptops in Pakistan</h2>
+              <div className="prose prose-slate max-w-none text-slate">
+                <p>
+                  Lenovo has established a formidable reputation in Pakistan, particularly for producing some of the most comfortable and durable keyboards in the industry. Our Lenovo inventory caters strongly to business users, developers, and writers who require uncompromising reliability and tactile feedback.
+                </p>
+              </div>
+            </section>
+            <section>
+              <h2 className="text-2xl font-bold text-navy mb-4">Lenovo Use Cases & Models</h2>
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+                <div className="rounded-xl bg-soft-gray p-6">
+                  <h3 className="font-bold text-navy mb-2">Lenovo ThinkPad</h3>
+                  <p className="text-sm text-slate leading-relaxed">
+                    The ThinkPad is legendary in the corporate world. Featuring military-spec durability and the iconic TrackPoint, these machines are heavily represented in our <Link href="/laptops/business" className="text-royal hover:underline">business</Link> and <Link href="/laptops/programming" className="text-royal hover:underline">programming</Link> laptop categories due to their exceptional thermal management and typing experience.
+                  </p>
+                </div>
+                <div className="rounded-xl bg-soft-gray p-6">
+                  <h3 className="font-bold text-navy mb-2">Budget & Productivity</h3>
+                  <p className="text-sm text-slate leading-relaxed">
+                    Beyond premium enterprise models, Lenovo also provides excellent value for standard <Link href="/laptops/office" className="text-royal hover:underline">office work</Link> and <Link href="/laptops/student" className="text-royal hover:underline">student</Link> needs, offering robust performance in various price ranges.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        )}
       </Container>
     </div>
   );

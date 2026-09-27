@@ -125,6 +125,54 @@ export default async function OfficeLaptopsPage({
             </p>
           </div>
         )}
+        
+        {/* SEO Content Section */}
+        <div className="mt-24 space-y-12 border-t border-light-gray pt-16">
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">Choosing a Reliable Office Laptop</h2>
+            <div className="prose prose-slate max-w-none text-slate">
+              <p>
+                An effective office laptop needs to balance performance, reliability, and ease of use to support daily workplace productivity. Whether you are drafting documents, managing emails, or conducting virtual meetings, a dedicated laptop for office work ensures you can complete tasks without frustrating slowdowns.
+              </p>
+              <p className="mt-4">
+                At i.Link Systems, we offer a range of laptops that are perfect for standard office environments, featuring trusted brands like <Link href="/brands/hp" className="text-royal hover:underline">HP</Link>, <Link href="/brands/dell" className="text-royal hover:underline">Dell</Link>, and <Link href="/brands/lenovo" className="text-royal hover:underline">Lenovo</Link>. These models focus on practical features that improve daily workflow.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">What to Consider for Everyday Work</h2>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Multitasking Capability</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  Keeping multiple browser tabs, spreadsheets, and email clients open simultaneously requires sufficient memory. We recommend a minimum of 8GB of RAM, though 16GB is ideal for power users who handle larger datasets or intensive web applications.
+                </p>
+              </div>
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Storage & Speed</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  A Solid State Drive (SSD) is essential for any modern office laptop. It significantly reduces boot times and allows applications like Microsoft Office to launch instantly. 256GB is generally sufficient for basic document storage, while 512GB provides extra headroom.
+                </p>
+              </div>
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Display & Comfort</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  Staring at a screen all day requires a comfortable display. A 14-inch or 15.6-inch Full HD (1080p) screen with an anti-glare coating reduces eye strain. A comfortable keyboard is equally critical for heavy typing sessions.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">Need Higher Performance?</h2>
+            <div className="prose prose-slate max-w-none text-slate mb-6">
+              <p>
+                While standard office laptops are excellent for typical administrative tasks, some roles require specialized hardware. If your work involves enterprise-level security protocols, frequent travel, or heavy data processing, you might want to explore our premium <Link href="/laptops/business" className="text-royal hover:underline">business laptops</Link>. For software development or complex engineering, view our <Link href="/laptops/programming" className="text-royal hover:underline">programming laptops</Link>.
+              </p>
+            </div>
+          </section>
+        </div>
       </Container>
     </div>
   );

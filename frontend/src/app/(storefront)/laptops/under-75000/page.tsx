@@ -133,6 +133,51 @@ export default async function LaptopsUnder75kPage({
             </p>
           </div>
         )}
+        
+        {/* SEO Content Section */}
+        <div className="mt-24 space-y-12 border-t border-light-gray pt-16">
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">What to Expect Under 75,000 PKR</h2>
+            <div className="prose prose-slate max-w-none text-slate">
+              <p>
+                A budget of PKR 75,000 hits an excellent sweet spot for buyers seeking reliable daily drivers without overspending. In this range, our inventory primarily features high-quality refurbished business laptops. These machines are significantly more durable than entry-level consumer models and are perfect for <Link href="/laptops/student" className="text-royal hover:underline">university students</Link> and standard <Link href="/laptops/office" className="text-royal hover:underline">office work</Link>.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">Realistic Specifications in this Budget</h2>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Processors & Multitasking</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  You can typically expect 8th or 9th generation Intel Core i5 processors. These CPUs are highly capable of handling dozens of browser tabs, Microsoft Office applications, and Zoom calls simultaneously without stuttering.
+                </p>
+              </div>
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Memory & Storage</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  At this price, 8GB of RAM is the standard, though occasional 16GB configurations appear. Storage is almost universally handled by fast 256GB Solid State Drives (SSDs), ensuring quick boot times and snappy application launches.
+                </p>
+              </div>
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Build Quality</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  Because these are often pre-owned enterprise models (like the <Link href="/brands/dell" className="text-royal hover:underline">Dell Latitude</Link> or <Link href="/brands/lenovo" className="text-royal hover:underline">Lenovo ThinkPad</Link> series), you benefit from premium build materials, comfortable keyboards, and robust hinges that outlast cheaper plastic alternatives.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">When to Consider Upgrading?</h2>
+            <div className="prose prose-slate max-w-none text-slate mb-6">
+              <p>
+                While laptops under 75k are fantastic for general productivity, they have limitations. If your workload involves heavy software development, video editing, or handling massive datasets, you will need a more modern processor and at least 16GB of RAM. In that scenario, we recommend exploring our <Link href="/laptops/under-100000" className="text-royal hover:underline">laptops under 100,000</Link> or <Link href="/laptops/under-150000" className="text-royal hover:underline">laptops under 150,000</Link> categories for machines capable of handling those intensive tasks.
+              </p>
+            </div>
+          </section>
+        </div>
       </Container>
     </div>
   );

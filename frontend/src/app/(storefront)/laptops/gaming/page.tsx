@@ -133,6 +133,54 @@ export default async function GamingLaptopsPage({
             </p>
           </div>
         )}
+        
+        {/* SEO Content Section */}
+        <div className="mt-24 space-y-12 border-t border-light-gray pt-16">
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">Understanding Gaming Laptops</h2>
+            <div className="prose prose-slate max-w-none text-slate">
+              <p>
+                A true gaming laptop differs significantly from a standard office or student machine. Designed to handle intensive real-time rendering, gaming laptops prioritize thermal management, high refresh rates, and most importantly, a dedicated Graphics Processing Unit (GPU). Whether you are exploring massive open worlds, engaging in competitive esports, or rendering 3D video projects, these laptops provide desktop-class performance in a portable chassis.
+              </p>
+              <p className="mt-4">
+                At i.Link Systems, our gaming inventory fluctuates based on market availability. While our core focus often lies in premium business machines, we periodically stock capable gaming units when available.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">Core Specifications for Gaming</h2>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">The Dedicated GPU</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  Unlike integrated graphics (which share memory with the CPU), a dedicated GPU (like an NVIDIA GeForce RTX or GTX series) has its own memory (VRAM). This is the single most important component in determining frame rates and graphic fidelity in modern titles.
+                </p>
+              </div>
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Display Refresh Rate</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  A high refresh rate display (120Hz, 144Hz, or higher) allows the screen to update faster than a standard 60Hz monitor. This results in incredibly smooth motion, which is crucial for fast-paced shooters and competitive multiplayer games.
+                </p>
+              </div>
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Thermals & Power</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  Gaming generates immense heat. Because of the robust cooling systems (larger fans and heat pipes) required to prevent thermal throttling, gaming laptops are naturally heavier and thicker than ordinary <Link href="/laptops/student" className="text-royal hover:underline">student laptops</Link>. Battery life is also generally shorter when under load.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">Alternative Uses</h2>
+            <div className="prose prose-slate max-w-none text-slate mb-6">
+              <p>
+                The immense processing power of a gaming laptop isn't just for entertainment. These machines overlap heavily with the requirements for high-end <Link href="/laptops/programming" className="text-royal hover:underline">programming laptops</Link>, especially for developers working on Machine Learning (CUDA) or heavy video editing. If your workflow requires intense graphical computation, a gaming-class machine is often the most cost-effective solution.
+              </p>
+            </div>
+          </section>
+        </div>
       </Container>
     </div>
   );

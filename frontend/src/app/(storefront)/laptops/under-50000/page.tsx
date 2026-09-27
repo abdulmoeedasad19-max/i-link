@@ -133,6 +133,45 @@ export default async function LaptopsUnder50kPage({
             </p>
           </div>
         )}
+        
+        {/* SEO Content Section */}
+        <div className="mt-24 space-y-12 border-t border-light-gray pt-16">
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">What to Expect Under 50,000 PKR</h2>
+            <div className="prose prose-slate max-w-none text-slate">
+              <p>
+                Finding a laptop under PKR 50,000 in Pakistan usually means exploring the refurbished or slightly older pre-owned market. At this price point, you are looking at practical, budget-friendly options designed for basic daily tasks rather than heavy computational workloads. These machines are often excellent choices for young <Link href="/laptops/student" className="text-royal hover:underline">students</Link> or small businesses needing simple data entry devices.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">Realistic Specifications in this Budget</h2>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Performance Limitations</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  Laptops in this range typically feature older generation Intel Core i3 or i5 processors. You can generally expect 4GB to 8GB of RAM. While this is sufficient for web browsing, watching videos, and basic Microsoft Office work, heavy multitasking or modern gaming will be limited.
+                </p>
+              </div>
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Storage & Upgrades</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  Many options in this tier might come with traditional Hard Drives (HDDs) or smaller 128GB Solid State Drives (SSDs). We highly recommend prioritizing models with an SSD (even a smaller one) as it significantly improves the overall speed and responsiveness of the laptop.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">Considering a Higher Budget?</h2>
+            <div className="prose prose-slate max-w-none text-slate mb-6">
+              <p>
+                If your work requires running multiple applications smoothly or you need a machine that will last through four years of university, you may want to increase your budget slightly. Exploring our <Link href="/laptops/under-75000" className="text-royal hover:underline">laptops under 75,000</Link> or <Link href="/laptops/under-100000" className="text-royal hover:underline">laptops under 100,000</Link> will unlock significantly better processors, standard 8GB/16GB RAM configurations, and much faster storage.
+              </p>
+            </div>
+          </section>
+        </div>
       </Container>
     </div>
   );

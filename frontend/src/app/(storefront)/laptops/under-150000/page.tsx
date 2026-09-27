@@ -133,6 +133,45 @@ export default async function LaptopsUnder150kPage({
             </p>
           </div>
         )}
+        
+        {/* SEO Content Section */}
+        <div className="mt-24 space-y-12 border-t border-light-gray pt-16">
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">What to Expect Under 150,000 PKR</h2>
+            <div className="prose prose-slate max-w-none text-slate">
+              <p>
+                A budget of PKR 150,000 places you in the premium tier of our refurbished and enterprise laptop inventory. At this price, you move significantly beyond basic computing. This category is dedicated to high-performance machines designed for heavy <Link href="/laptops/business" className="text-royal hover:underline">business</Link> multitasking, complex <Link href="/laptops/programming" className="text-royal hover:underline">programming</Link> workloads, and professionals who demand uncompromised reliability from their daily driver.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">Hardware Capabilities in this Tier</h2>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Modern Processors & High RAM</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  Laptops under 150k typically feature newer 10th or 11th generation Intel Core i5 and i7 processors (or their AMD Ryzen equivalents). Crucially, 16GB of RAM is the standard expectation here, providing vast headroom for running local servers, virtual machines, and massive datasets simultaneously without slowdowns.
+                </p>
+              </div>
+              <div className="rounded-xl bg-soft-gray p-6">
+                <h3 className="font-bold text-navy mb-2">Premium Enterprise Lines</h3>
+                <p className="text-sm text-slate leading-relaxed">
+                  Our inventory in this bracket is dominated by top-tier enterprise models like the <Link href="/brands/dell" className="text-royal hover:underline">Dell Latitude 7000 series</Link>, <Link href="/brands/hp" className="text-royal hover:underline">HP EliteBook 800 series</Link>, and <Link href="/brands/lenovo" className="text-royal hover:underline">Lenovo ThinkPad T-Series</Link>. These models offer superior thermal management, exceptional keyboards, and advanced security features (like facial recognition and TPM chips) compared to models found in the <Link href="/laptops/under-100000" className="text-royal hover:underline">under 100,000</Link> range.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-navy mb-4">A Note on Dedicated Graphics</h2>
+            <div className="prose prose-slate max-w-none text-slate mb-6">
+              <p>
+                While these laptops offer incredible CPU processing power, it is important to note that most premium business laptops rely on powerful integrated graphics (like Intel Iris Xe) rather than dedicated GPUs. They easily handle 4K video playback and light photo editing, but if your work explicitly requires rendering 3D models or heavy machine learning tasks, you should specifically look for our <Link href="/laptops/gaming" className="text-royal hover:underline">gaming or workstation laptops</Link> which feature dedicated NVIDIA or AMD chips.
+              </p>
+            </div>
+          </section>
+        </div>
       </Container>
     </div>
   );
