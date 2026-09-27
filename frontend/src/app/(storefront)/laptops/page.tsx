@@ -97,7 +97,7 @@ export default async function LaptopsPage({
           <SectionHeading 
             as="h1" 
             title="Laptops in Pakistan" 
-            description="i.Link Systems offers a wide range of laptops in Pakistan for university students, office professionals, business users, and everyday home users. Explore top brands like HP, Dell, and Lenovo with competitive pricing and reliable warranties." 
+            description="Based in Blue Area, Islamabad, i.Link Systems & Solutions offers laptops for students, office professionals, business users, and everyday computing needs across Pakistan. Our laptop range includes models from top brands such as HP, Dell, and Lenovo, with options organized by budget, brand, and use case. Browse the available configurations below to compare specifications, transparent prices, and current stock, or explore the relevant laptop categories to find the perfect machine for your specific needs." 
           />
         </div>
 
