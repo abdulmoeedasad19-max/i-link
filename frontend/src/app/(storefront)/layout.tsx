@@ -98,13 +98,14 @@ const organizationJsonLd = {
     "Authorized reseller of genuine laptops, desktop PCs, networking equipment, CCTV and IT accessories, serving consumers and enterprises across Pakistan.",
   address: {
     "@type": "PostalAddress",
+    streetAddress: "Office #07, Basement Azeem Mansion Plaza, Fazal ul Haq Road, Blue Area",
+    addressLocality: "Islamabad",
     addressCountry: "PK",
   },
   sameAs: [
-    "https://www.facebook.com/",
-    "https://www.instagram.com/",
-    "https://www.youtube.com/",
-    "https://www.linkedin.com/",
+    "https://www.facebook.com/share/1C75E5YCZU/",
+    "https://www.instagram.com/ch._asadullah?utm_source=qr&stkn=MTJqczhodTd0MmV3Zg==",
+    "https://youtube.com/@kaaku_reviews?si=ph9qrsoIH5XDB-FA",
   ],
 };
 
