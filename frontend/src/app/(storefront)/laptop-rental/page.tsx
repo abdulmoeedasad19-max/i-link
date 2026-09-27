@@ -11,22 +11,22 @@ import { WhatsAppButton } from "@/components/ui/whatsapp-button";
 import { Building2, Calendar, Monitor, Users, Briefcase, GraduationCap, CheckCircle2 } from "lucide-react";
 import { safeJsonLd } from "@/lib/utils";
 
-const canonicalPath = "/laptop-rental";
+const canonicalPath = "https://ilink.com.pk/laptop-rental";
 
 export const metadata: Metadata = {
   title: "Laptop Rental in Pakistan | Laptops on Rent | i.Link",
-  description: "Rent laptops in Pakistan for events, seminars, conferences, corporate training, workshops and temporary business needs. Laptop rental from PKR 1,000-2,500 per day. Get a custom quote from i.Link.",
+  description: "Looking for laptop rental in Pakistan? i.Link offers reliable laptops on rent for events, corporate training & temporary business setups. Request a quote!",
   alternates: { canonical: canonicalPath },
   openGraph: {
     type: "website",
     title: "Laptop Rental in Pakistan | Laptops on Rent | i.Link",
-    description: "Rent laptops in Pakistan for events, seminars, conferences, corporate training, workshops and temporary business needs. Laptop rental from PKR 1,000-2,500 per day. Get a custom quote from i.Link.",
+    description: "Looking for laptop rental in Pakistan? i.Link offers reliable laptops on rent for events, corporate training & temporary business setups. Request a quote!",
     url: canonicalPath,
   },
   twitter: {
     card: "summary",
     title: "Laptop Rental in Pakistan | Laptops on Rent | i.Link",
-    description: "Rent laptops in Pakistan for events, seminars, conferences, corporate training, workshops and temporary business needs. Laptop rental from PKR 1,000-2,500 per day. Get a custom quote from i.Link.",
+    description: "Looking for laptop rental in Pakistan? i.Link offers reliable laptops on rent for events, corporate training & temporary business setups. Request a quote!",
   },
 };
 
@@ -267,11 +267,28 @@ export default async function LaptopRentalPage() {
                 </Button>
               </div>
             </FadeIn>
-            <FadeIn className="relative h-[400px] lg:h-[500px] overflow-hidden rounded-3xl premium-shadow">
-              {/* Fallback image style using a solid color/gradient as an abstract placeholder if no specific image exists, but we can just use a standard placeholder or decorative div since we don't have a guaranteed rental image */}
-              <div className="absolute inset-0 bg-gradient-to-br from-navy to-royal opacity-90" />
-              <div className="absolute inset-0 flex items-center justify-center p-12 text-center">
-                <p className="text-2xl font-bold text-white/90 leading-snug">Empowering your business with temporary IT infrastructure.</p>
+            <FadeIn className="relative h-full overflow-hidden rounded-3xl premium-shadow bg-navy p-8 sm:p-10 flex flex-col justify-center">
+              <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-800 to-royal-700 z-0" />
+              <div className="relative z-10">
+                <h3 className="text-2xl font-bold text-white mb-6">Inventory & Logistics</h3>
+                <ul className="space-y-5 text-white/80 text-sm sm:text-base leading-relaxed">
+                  <li>
+                    <strong className="block text-white mb-1 font-semibold text-base">Premium Brands Available</strong>
+                    Finding reliable laptops on rent is easy with our inventory of HP, Dell, Lenovo, and ASUS systems.
+                  </li>
+                  <li>
+                    <strong className="block text-white mb-1 font-semibold text-base">Hardware Configurations</strong>
+                    Whether you need a Core i7 laptop for business or a Ryzen 9 laptop for intensive multitasking, our options scale up to 32GB RAM and 1TB NVMe SSD.
+                  </li>
+                  <li>
+                    <strong className="block text-white mb-1 font-semibold text-base">High-Performance Laptops</strong>
+                    For demanding workloads and gaming, we supply systems with dedicated NVIDIA RTX graphics, including the ASUS ROG Zephyrus G14.
+                  </li>
+                  <li>
+                    <strong className="block text-white mb-1 font-semibold text-base">Pickup & Delivery</strong>
+                    For laptop rental in Islamabad, you can pick up directly from our physical locations in Blue Area. We also provide nationwide delivery across major cities and towns for your laptop rental Pakistan requirements.
+                  </li>
+                </ul>
               </div>
             </FadeIn>
           </div>
@@ -291,13 +308,27 @@ export default async function LaptopRentalPage() {
               {products.map((product) => (
                 <FadeIn key={product.id}>
                   {/* Reuse the existing product card for visual display */}
-                  <ProductCard product={product} />
+                  <ProductCard product={product} isRentalPreview={true} />
                 </FadeIn>
               ))}
             </div>
           </Container>
         </section>
       )}
+
+      {/* Business Summary */}
+      <section className="bg-white pb-12 pt-20 sm:pb-16 sm:pt-24">
+        <Container>
+          <div className="mx-auto max-w-4xl text-center rounded-2xl bg-soft-gray p-8 sm:p-10">
+            <h2 className="text-2xl font-bold text-navy mb-4">
+              Business & Event Laptop Rental in Pakistan
+            </h2>
+            <p className="text-slate leading-relaxed text-sm sm:text-base">
+              i.Link Systems & Solutions provides professional laptop rental services. Based in Blue Area, Islamabad, we supply equipment for events, seminars, workshops, corporate training, temporary business setups, and bulk requirements. Our indicative rental pricing ranges from PKR 1,000 to 2,500 per laptop per day. All rental requirements are handled through a custom quotation and request process rather than standard retail checkout. Customers can pick up units directly from our Islamabad location, and we also offer nationwide delivery across major cities and towns in Pakistan. Available laptop configurations cover a wide range of needs, including standard business models and high-performance options.
+            </p>
+          </div>
+        </Container>
+      </section>
 
       {/* FAQ Section */}
       <section className="bg-white py-20 sm:py-24">
