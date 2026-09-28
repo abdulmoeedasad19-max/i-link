@@ -90,16 +90,18 @@ export const viewport: Viewport = {
 
 const organizationJsonLd = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "ComputerStore"],
   name: "i.Link Systems & Solutions",
   url: siteUrl,
   logo: `${siteUrl}/brand/ilink-logo.jpeg`,
+  telephone: "+92 331 8852808",
   description:
-    "Authorized reseller of genuine laptops, desktop PCs, networking equipment, CCTV and IT accessories, serving consumers and enterprises across Pakistan.",
+    "Islamabad, Pakistan technology and IT equipment store specializing in laptop sales (Dell, HP, Lenovo), desktop PCs, networking equipment, CCTV, and IT accessories.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Office #07, Basement Azeem Mansion Plaza, Fazal ul Haq Road, Blue Area",
     addressLocality: "Islamabad",
+    addressRegion: "Islamabad Capital Territory",
     addressCountry: "PK",
   },
   sameAs: [

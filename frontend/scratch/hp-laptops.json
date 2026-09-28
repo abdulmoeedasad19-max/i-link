@@ -1,0 +1,2679 @@
+[
+  {
+    "id": "b789eaa6-863c-4c77-8f93-93224ea4343c",
+    "name": "HP PROBOOK 430G7 | CI3 10TH Gen | 8GB RAM | 128GB SSD | 13.3\" LED FHD | Charger Included",
+    "slug": "hp-probook-430g7-ci3-10th-gen-8gb-ram-128gb-ssd-13-3-led-fhd-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP ProBook 430G7 features an Intel Core i3 (10TH Generation) paired with 8GB RAM and a ultra-fast 128GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 13.3\" LED FHD, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP ProBook 430G7 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i3 CI3 10TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 128GB SSD provides quick data access alongside 8GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP ProBook 430G7 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "52000",
+    "compareAtPrice": "64999",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP ProBook 430G7",
+      "Intel Core i3 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP ProBook 430G7 CI3 10TH Gen (8GB RAM, 128GB SSD) - Best Price",
+    "seoDescription": "Buy HP ProBook 430G7 with Intel Core i3 10TH Generation, 8GB RAM, 128GB SSD, and 13.3\" LED FHD. Tested quality with original charger included. Order now ...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP ProBook 430G7\r\nProcessor: Intel Core i3, 10TH Generation\r\nMemory (RAM): 8GB RAM\r\nStorage: 128GB SSD\r\nDisplay: 13.3\" LED FHD\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:35:58.275Z",
+    "updatedAt": "2026-08-31T14:37:33.421Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "b789eaa6-863c-4c77-8f93-93224ea4343c",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "b789eaa6-863c-4c77-8f93-93224ea4343c",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "b789eaa6-863c-4c77-8f93-93224ea4343c",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmthcdpc1001o78wiydnj7dhx",
+        "productId": "b789eaa6-863c-4c77-8f93-93224ea4343c",
+        "url": "/uploads/products/recreate-image-with-professional-202608311936-9d3d7a25-323d-44e9-9e86-2467327c97bc.jpg",
+        "altText": "HP PROBOOK 430G7",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T14:36:57.601Z"
+      },
+      {
+        "id": "cmthcdpkv001p78witvnyadog",
+        "productId": "b789eaa6-863c-4c77-8f93-93224ea4343c",
+        "url": "/uploads/products/recreate-image-professional-shoot-202608311936-c6826f8b-61b9-4f71-8904-08a174ad4027.jpg",
+        "altText": "HP PROBOOK 430G7",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T14:36:57.919Z"
+      }
+    ]
+  },
+  {
+    "id": "1f78506e-302d-4a63-87fc-17c35b7123c8",
+    "name": "HP ELITEBOOK 850G6 | Ci5 8TH Gen | 16GB RAM | 256GB SSD | 15.6\" LED | Charger Included",
+    "slug": "hp-elitebook-850g6-ci5-8th-gen-16gb-ram-256gb-ssd-15-6-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 850G6 features an Intel Core i5 (8TH Generation) paired with 16GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 15.6\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 850G6 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 8TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 16GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 850G6 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "85000",
+    "compareAtPrice": "98000",
+    "stock": 0,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 850G6",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 850G6 CI5 8TH Gen (16GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 850G6 with Intel Core i5 8TH Generation, 16GB RAM, 256GB SSD, and 15.6\" LED. Tested quality with original charger included. Order now at...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 850G6\r\nProcessor: Intel Core i5, 8TH Generation\r\nMemory (RAM): 16GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 15.6\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:35:57.151Z",
+    "updatedAt": "2026-08-31T14:41:33.067Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "1f78506e-302d-4a63-87fc-17c35b7123c8",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "1f78506e-302d-4a63-87fc-17c35b7123c8",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "1f78506e-302d-4a63-87fc-17c35b7123c8",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmthcj1r4001r78wij187h967",
+        "productId": "1f78506e-302d-4a63-87fc-17c35b7123c8",
+        "url": "/uploads/products/recreate-image-professional-shoot-202608311940-5376bb64-9e00-4312-a1ca-93d0f265c5c9.jpg",
+        "altText": "HP ELITEBOOK 850G6",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T14:41:06.976Z"
+      },
+      {
+        "id": "cmthcj1zl001s78wiu6u4kj5i",
+        "productId": "1f78506e-302d-4a63-87fc-17c35b7123c8",
+        "url": "/uploads/products/recreate-image-with-professional-202608311940-eef4238e-3b51-42dd-8e00-9bdc132b6c57.jpg",
+        "altText": "HP ELITEBOOK 850G6",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T14:41:07.281Z"
+      }
+    ]
+  },
+  {
+    "id": "ba1cd87d-ee4c-4832-b662-87da553d18d8",
+    "name": "HP ELITEBOOK 840G5 | CI5 8TH Gen | 8GB RAM | 256GB SSD | 14\" LED | Charger Included",
+    "slug": "hp-elitebook-840g5-ci5-8th-gen-8gb-ram-256gb-ssd-14-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 840G5 features an Intel Core i5 (8TH Generation) paired with 8GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 840G5 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 8TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 8GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 840G5 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "65000",
+    "compareAtPrice": null,
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 840G5",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 840G5 CI5 8TH Gen (8GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 840G5 with Intel Core i5 8TH Generation, 8GB RAM, 256GB SSD, and 14\" LED. Tested quality with original charger included. Order now at be...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 840G5\r\nProcessor: Intel Core i5, 8TH Generation\r\nMemory (RAM): 8GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 14\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:06.864Z",
+    "updatedAt": "2026-08-31T13:28:21.688Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "ba1cd87d-ee4c-4832-b662-87da553d18d8",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "ba1cd87d-ee4c-4832-b662-87da553d18d8",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "ba1cd87d-ee4c-4832-b662-87da553d18d8",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmth9wxd9000z78wike687wt9",
+        "productId": "ba1cd87d-ee4c-4832-b662-87da553d18d8",
+        "url": "/uploads/products/recreate-image-professional-shoot-202608311827-0b4961a5-bb52-4a16-bc75-2f1cf86562dc.jpg",
+        "altText": "HP ELITEBOOK 840G5",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T13:27:55.629Z"
+      },
+      {
+        "id": "cmth9wxv4001078wi1e7em31o",
+        "productId": "ba1cd87d-ee4c-4832-b662-87da553d18d8",
+        "url": "/uploads/products/recreate-professional-shoot-back-202608311827-f90a9ad1-6368-4d4e-9370-4b353aecfae8.jpg",
+        "altText": "HP ELITEBOOK 840G5",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T13:27:56.272Z"
+      }
+    ]
+  },
+  {
+    "id": "20ca3339-98fd-4fe9-94cf-9a0b3bfbd725",
+    "name": "HP ELITEBOOK 840G8 | Cii5 11TH Gen | 16GB RAM | 512GB SSD | 14\" LED FHD | Charger Included",
+    "slug": "hp-elitebook-840g8-ci5-11th-gen-16gb-ram-512gb-ssd-14-led-fhd-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 840G8 features an Intel Core i5 (11TH Generation) paired with 16GB RAM and a ultra-fast 512GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED FHD, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 840G8 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 11TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 512GB SSD provides quick data access alongside 16GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 840G8 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "90000",
+    "compareAtPrice": "99999.83",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 840G8",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 840G8 Ci5 11TH Gen (16GB RAM, 512GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 840G8 with Intel Core i5 11TH Generation, 16GB RAM, 512GB SSD, and 14\" LED FHD. Tested quality with original charger included. Order now...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 840G8\r\nProcessor: Intel Core i5, 11TH Generation\r\nMemory (RAM): 16GB RAM\r\nStorage: 512GB SSD\r\nDisplay: 14\" LED FHD\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:04.830Z",
+    "updatedAt": "2026-08-31T14:10:10.848Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "20ca3339-98fd-4fe9-94cf-9a0b3bfbd725",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "20ca3339-98fd-4fe9-94cf-9a0b3bfbd725",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "20ca3339-98fd-4fe9-94cf-9a0b3bfbd725",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmtha9qbv001578wiz0wtzs8s",
+        "productId": "20ca3339-98fd-4fe9-94cf-9a0b3bfbd725",
+        "url": "/uploads/products/recreate-image-professional-shoot-202608311837-056fb08c-552c-425e-9541-6e44c16b6900.jpg",
+        "altText": "HP ELITEBOOK 840G8",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T13:37:53.035Z"
+      },
+      {
+        "id": "cmtha9qk3001678wi4sofk2i1",
+        "productId": "20ca3339-98fd-4fe9-94cf-9a0b3bfbd725",
+        "url": "/uploads/products/recreate-image-with-professional-202608311837-304a8ada-2cc3-4848-9186-515350dc5203.jpg",
+        "altText": "HP ELITEBOOK 840G8",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T13:37:53.332Z"
+      }
+    ]
+  },
+  {
+    "id": "02a7cce1-aa4a-428e-a54e-e9a25ff59b95",
+    "name": "HP PAVILION 15 | CI3 7TH Gen | 8GB RAM | 128GB SSD / 320GB HDD | 15.6\" LED | Charger Included",
+    "slug": "hp-pavilion-15-ci3-7th-gen-8gb-ram-128gb-ssd-320gb-hdd-15-6-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP Pavilion 15 features an Intel Core i3 (7TH Generation) paired with 8GB RAM and a ultra-fast 128GB SSD / 320GB HDD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 15.6\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP Pavilion 15 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i3 CI3 7TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 128GB SSD / 320GB HDD provides quick data access alongside 8GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP Pavilion 15 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "48000",
+    "compareAtPrice": "54000",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP Pavilion 15",
+      "Intel Core i3 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP Pavilion 15 CI3 7TH Gen (8GB RAM, 128GB SSD / 320GB HDD) - Best Price",
+    "seoDescription": "Buy HP Pavilion 15 with Intel Core i3 7TH Generation, 8GB RAM, 128GB SSD / 320GB HDD, and 15.6\" LED. Tested quality with original charger included. Order...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP Pavilion 15\r\nProcessor: Intel Core i3, 7TH Generation\r\nMemory (RAM): 8GB RAM\r\nStorage: 128GB SSD / 320GB HDD\r\nDisplay: 15.6\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:03.830Z",
+    "updatedAt": "2026-08-31T14:16:32.933Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "02a7cce1-aa4a-428e-a54e-e9a25ff59b95",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "02a7cce1-aa4a-428e-a54e-e9a25ff59b95",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "02a7cce1-aa4a-428e-a54e-e9a25ff59b95",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmthblvtb001978wioo0i4sad",
+        "productId": "02a7cce1-aa4a-428e-a54e-e9a25ff59b95",
+        "url": "/uploads/products/recreate-image-professional-shoot-202608311914-0988451a-75c6-47b9-b928-461e91b616d2.jpg",
+        "altText": "HP PAVILION 15",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T14:15:19.631Z"
+      },
+      {
+        "id": "cmthblvjo001878wirf4jtdv5",
+        "productId": "02a7cce1-aa4a-428e-a54e-e9a25ff59b95",
+        "url": "/uploads/products/recreate-image-professional-shoot-202608311914-1-55ec38ef-b7b8-4366-9635-8024626961c3.jpg",
+        "altText": "HP PAVILION 15",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T14:15:19.284Z"
+      },
+      {
+        "id": "cmthblw3b001a78wiadpvqt8v",
+        "productId": "02a7cce1-aa4a-428e-a54e-e9a25ff59b95",
+        "url": "/uploads/products/recreate-image-with-professional-202608311914-63a64dc0-6e67-41c4-8a58-da28d3b88ef2.jpg",
+        "altText": "HP PAVILION 15",
+        "sortOrder": 2,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T14:15:19.992Z"
+      }
+    ]
+  },
+  {
+    "id": "95a2c2af-9290-4123-b57c-6172c9a84b70",
+    "name": "HP PROBOOK 640G5 | CI5 8TH Gen | 8GB RAM | 256GB SSD | 14\" LED | Charger Included",
+    "slug": "hp-probook-640g5-ci5-8th-gen-8gb-ram-256gb-ssd-14-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP ProBook 640G5 features an Intel Core i5 (8TH Generation) paired with 8GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP ProBook 640G5 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 8TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 8GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP ProBook 640G5 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "54000",
+    "compareAtPrice": null,
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP ProBook 640G5",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP ProBook 640G5 CI5 8TH Gen (8GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP ProBook 640G5 with Intel Core i5 8TH Generation, 8GB RAM, 256GB SSD, and 14\" LED. Tested quality with original charger included. Order now at best...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP ProBook 640G5\r\nProcessor: Intel Core i5, 8TH Generation\r\nMemory (RAM): 8GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 14\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:02.845Z",
+    "updatedAt": "2026-08-31T14:21:14.435Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "95a2c2af-9290-4123-b57c-6172c9a84b70",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "95a2c2af-9290-4123-b57c-6172c9a84b70",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "95a2c2af-9290-4123-b57c-6172c9a84b70",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmthbsk54001d78wi7i952z7c",
+        "productId": "95a2c2af-9290-4123-b57c-6172c9a84b70",
+        "url": "/uploads/products/recreate-image-with-professional-202608311920-27d4a415-7ac9-4aab-b145-37aa283a3057.jpg",
+        "altText": "HP PROBOOK 640G5",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T14:20:31.096Z"
+      },
+      {
+        "id": "cmthbsjtd001c78wif04i1ajz",
+        "productId": "95a2c2af-9290-4123-b57c-6172c9a84b70",
+        "url": "/uploads/products/recreate-image-and-change-backgr-202608311920-e7f99781-4157-42e9-8653-3c281befbb09.jpg",
+        "altText": "HP PROBOOK 640G5",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T14:20:30.673Z"
+      }
+    ]
+  },
+  {
+    "id": "7c2a2aea-2922-4e43-aff7-f8f69a3b39bd",
+    "name": "HP PRO X2 612 | Ci5 4TH Gen | 8GB RAM | 512GB SSD | 12\" LED Touchscreen x360 | Charger Included",
+    "slug": "hp-pro-x2-612-ci5-4th-gen-8gb-ram-512gb-ssd-12-led-touchscreen-x360-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP Pro x2 612 features an Intel Core i5 (4TH Generation) paired with 8GB RAM and a ultra-fast 512GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 12\" LED Touchscreen x360, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP Pro x2 612 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 4TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 512GB SSD provides quick data access alongside 8GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP Pro x2 612 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "48000",
+    "compareAtPrice": "54999",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP Pro x2 612",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP Pro x2 612 Ci5 4TH Gen (8GB RAM, 512GB SSD) - Best Price",
+    "seoDescription": "Buy HP Pro x2 612 with Intel Core i5 4TH Generation, 8GB RAM, 512GB SSD, and 12\" LED Touchscreen x360. Tested quality with original charger included. Ord...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP Pro x2 612\r\nProcessor: Intel Core i5, 4TH Generation\r\nMemory (RAM): 8GB RAM\r\nStorage: 512GB SSD\r\nDisplay: 12\" LED Touchscreen x360\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:00.839Z",
+    "updatedAt": "2026-08-31T14:29:53.404Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "7c2a2aea-2922-4e43-aff7-f8f69a3b39bd",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "7c2a2aea-2922-4e43-aff7-f8f69a3b39bd",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "7c2a2aea-2922-4e43-aff7-f8f69a3b39bd",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmthc35ix001i78wikk7dbdms",
+        "productId": "7c2a2aea-2922-4e43-aff7-f8f69a3b39bd",
+        "url": "/uploads/products/recreate-image-and-change-backgr-202608311927-edbe3ba5-0c3f-4a80-b170-3e42725cbf31.jpg",
+        "altText": "HP PRO X2 612",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T14:28:45.369Z"
+      },
+      {
+        "id": "cmthc35r5001j78wijdxb4ev9",
+        "productId": "7c2a2aea-2922-4e43-aff7-f8f69a3b39bd",
+        "url": "/uploads/products/recreate-image-professional-shoot-202608311927-9f920c79-edd6-40c8-9d60-d890590830fc.jpg",
+        "altText": "HP PRO X2 612",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T14:28:45.665Z"
+      }
+    ]
+  },
+  {
+    "id": "a704d74d-6c15-41ab-bc50-1c222e1efea9",
+    "name": "HP PROBOOK 650G8 | Ci5 11TH Gen | 16GB RAM | 512GB SSD | 15.6\" LED FHD | Charger Included",
+    "slug": "hp-probook-650g8-ci5-11th-gen-16gb-ram-512gb-ssd-15-6-led-fhd-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP ProBook 650G8 features an Intel Core i5 (CI5 11TH Generation) paired with 16GB RAM and a ultra-fast 512GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 15.6\" LED FHD, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP ProBook 650G8 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 11TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 512GB SSD provides quick data access alongside 16GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP ProBook 650G8 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "98000",
+    "compareAtPrice": "105000",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP ProBook 650G8",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP ProBook 650G8 Ci5 11TH Gen (16GB RAM, 512GB SSD) - Best Price",
+    "seoDescription": "Buy HP ProBook 650G8 with Intel Core i5 11TH Generation, 16GB RAM, 512GB SSD, and 15.6\" LED FHD. Tested quality with original charger included. Order now...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP ProBook 650G8\r\nProcessor: Intel Core i5, CI5 11TH Generation\r\nMemory (RAM): 16GB RAM\r\nStorage: 512GB SSD\r\nDisplay: 15.6\" LED FHD\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:14.024Z",
+    "updatedAt": "2026-08-31T11:07:11.574Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "a704d74d-6c15-41ab-bc50-1c222e1efea9",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "a704d74d-6c15-41ab-bc50-1c222e1efea9",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "a704d74d-6c15-41ab-bc50-1c222e1efea9",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmth4v8qp000a78wi9407ugv4",
+        "productId": "a704d74d-6c15-41ab-bc50-1c222e1efea9",
+        "url": "/uploads/products/recreate-image-and-add-background-202608311606-87fd06aa-a206-4ee5-a5c4-e27874962d1e.jpg",
+        "altText": "HP PROBOOK 650G8",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T11:06:38.977Z"
+      },
+      {
+        "id": "cmth4v8xn000b78winh1ib92f",
+        "productId": "a704d74d-6c15-41ab-bc50-1c222e1efea9",
+        "url": "/uploads/products/recreat-it-and-add-esthatic-202608311606-324ede3e-7064-4f4a-8534-4f876aeb0e58.jpg",
+        "altText": "HP PROBOOK 650G8",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T11:06:39.227Z"
+      }
+    ]
+  },
+  {
+    "id": "a0b1e3f6-e1bb-4d8d-9d08-b8f3ed444c84",
+    "name": "HP ELITEBOOK 650G9 | CI5 12TH Gen | 16GB RAM | 256GB SSD | 15.6\" LED | Charger Included",
+    "slug": "hp-elitebook-650g9-ci5-12th-gen-16gb-ram-256gb-ssd-15-6-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 650G9 features an Intel Core i5 (12TH Generation) paired with 16GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 15.6\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 650G9 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 12TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 16GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 650G9 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "105000",
+    "compareAtPrice": "120000",
+    "stock": 0,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 650G9",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 650G9 Cii5 CI5 12TH Gen (16GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 650G9 with Intel Core i5 CI5 12TH Generation, 16GB RAM, 256GB SSD, and 15.6\" LED. Tested quality with original charger included. Order now a...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 650G9\r\nProcessor: Intel Core i5, 12TH Generation\r\nMemory (RAM): 16GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 15.6\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:12.992Z",
+    "updatedAt": "2026-08-31T11:14:15.456Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "a0b1e3f6-e1bb-4d8d-9d08-b8f3ed444c84",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "a0b1e3f6-e1bb-4d8d-9d08-b8f3ed444c84",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "a0b1e3f6-e1bb-4d8d-9d08-b8f3ed444c84",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmth50voj000e78wiwtul4d4v",
+        "productId": "a0b1e3f6-e1bb-4d8d-9d08-b8f3ed444c84",
+        "url": "/uploads/products/recreat-it-and-add-profrssional-202608311610-1-fef0f752-221e-42d6-a62d-90b2f89b1bd1.jpg",
+        "altText": "HP ELITEBOOK 650G9",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T11:11:01.987Z"
+      },
+      {
+        "id": "cmth50vwi000f78wi7k4wrlbn",
+        "productId": "a0b1e3f6-e1bb-4d8d-9d08-b8f3ed444c84",
+        "url": "/uploads/products/recreat-it-and-add-profrssional-202608311610-99e3a1b2-9ce0-421a-8048-367d2cb0dd1e.jpg",
+        "altText": "HP ELITEBOOK 650G9",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T11:11:02.274Z"
+      }
+    ]
+  },
+  {
+    "id": "140d8bdc-7455-4afd-88ac-03262be929cc",
+    "name": "HP ELITEBOOK 840G6 | Ci7 8TH Gen | 8GB RAM | 256GB SSD | 14\" LED | Charger Included",
+    "slug": "hp-elitebook-840g6-ci7-8th-gen-8gb-ram-256gb-ssd-14-led-charger-included-2",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 840G6 features an Intel Core i7 (8TH Generation) paired with 8GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 840G6 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i7 CI7 8TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 8GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 840G6 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "72000",
+    "compareAtPrice": "82000",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 840G6",
+      "Intel Core i7 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 840G6 Cii7 CI7 8TH Gen (8GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 840G6 with Intel Core i7 CI7 8TH Generation, 8GB RAM, 256GB SSD, and 14\" LED. Tested quality with original charger included. Order now at be...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 840G6\r\nProcessor: Intel Core i7, 8TH Generation\r\nMemory (RAM): 8GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 14\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:12.014Z",
+    "updatedAt": "2026-08-31T11:21:58.743Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "140d8bdc-7455-4afd-88ac-03262be929cc",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "140d8bdc-7455-4afd-88ac-03262be929cc",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "140d8bdc-7455-4afd-88ac-03262be929cc",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmth5bag1000h78wi2927y578",
+        "productId": "140d8bdc-7455-4afd-88ac-03262be929cc",
+        "url": "/uploads/products/recreat-it-and-change-background-202608311618-2-f87b925f-4703-4ad9-bc37-b089899a9fd7.jpg",
+        "altText": "HP ELITEBOOK 840G6",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T11:19:07.681Z"
+      },
+      {
+        "id": "cmth5ban9000i78wib4dsn0n4",
+        "productId": "140d8bdc-7455-4afd-88ac-03262be929cc",
+        "url": "/uploads/products/recreat-it-and-change-background-202608311618-1-40953d13-66a7-413c-8173-1617cec6d3b6.jpg",
+        "altText": "HP ELITEBOOK 840G6",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T11:19:07.941Z"
+      },
+      {
+        "id": "cmth5baur000j78wi5u4i4n6l",
+        "productId": "140d8bdc-7455-4afd-88ac-03262be929cc",
+        "url": "/uploads/products/recreat-it-and-change-background-202608311618-290aaaee-0ba2-4bd2-be41-73cc1b497630.jpg",
+        "altText": "HP ELITEBOOK 840G6",
+        "sortOrder": 2,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T11:19:08.211Z"
+      }
+    ]
+  },
+  {
+    "id": "114188e5-f11a-4423-ad8c-13a961b68d29",
+    "name": "HP ELITEBOOK 1040G6 | CI7 8TH Gen | 16GB RAM | 256GB SSD | 14\" LED Touchscreen x360 | Charger Included",
+    "slug": "hp-elitebook-1040g6-ci7-8th-gen-16gb-ram-256gb-ssd-14-led-touchscreen-x360-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 1040G6 features an Intel Core i7 (8TH Generation) paired with 16GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED Touchscreen x360, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 1040G6 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i7 CI7 8TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 16GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 1040G6 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "83000",
+    "compareAtPrice": "93999.73",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 1040G6",
+      "Intel Core i7 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 1040G6 Cii7 CI7 8TH Gen (16GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 1040G6 with Intel Core i7 CI7 8TH Generation, 16GB RAM, 256GB SSD, and 14\" LED Touchscreen x360. Tested quality with original charger includ...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 1040G6\r\nProcessor: Intel Core i7, 8TH Generation\r\nMemory (RAM): 16GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 14\" LED Touchscreen x360\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:11.008Z",
+    "updatedAt": "2026-08-31T13:05:43.093Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "114188e5-f11a-4423-ad8c-13a961b68d29",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "114188e5-f11a-4423-ad8c-13a961b68d29",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "114188e5-f11a-4423-ad8c-13a961b68d29",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmth93i11000l78wi0cn19bi1",
+        "productId": "114188e5-f11a-4423-ad8c-13a961b68d29",
+        "url": "/uploads/products/recreate-image-with-background-202608311804-d16f11b2-8b48-4a7e-9e09-4f86699a0784.jpg",
+        "altText": "HP ELITEBOOK 1040G6",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T13:05:02.725Z"
+      },
+      {
+        "id": "cmth93i9d000m78wi5m0sx8ur",
+        "productId": "114188e5-f11a-4423-ad8c-13a961b68d29",
+        "url": "/uploads/products/recreate-image-with-professional-202608311804-999b5ff9-65be-4068-ac30-7c4460980855.jpg",
+        "altText": "HP ELITEBOOK 1040G6",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T13:05:03.025Z"
+      }
+    ]
+  },
+  {
+    "id": "ec78b265-6782-4740-8b96-849059644406",
+    "name": "HP ELITEBOOK 840G7 |CI5 10TH Gen | 16GB RAM | 256GB SSD | 14\" LED | Charger Included",
+    "slug": "hp-elitebook-840g7-ci5-10th-gen-16gb-ram-256gb-ssd-14-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 840G7 features an Intel Core i5 (10TH Generation) paired with 16GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 840G7 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 10TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 16GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 840G7 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "79000",
+    "compareAtPrice": "85999.73",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 840G7",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 840G7 Cii5 CI5 10TH Gen (16GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 840G7 with Intel Core i5 10TH Generation, 16GB RAM, 256GB SSD, and 14\" LED. Tested quality with original charger included. Order now at ...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 840G7\r\nProcessor: Intel Core i5, 10TH Generation\r\nMemory (RAM): 16GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 14\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:09.858Z",
+    "updatedAt": "2026-08-31T13:11:27.453Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "ec78b265-6782-4740-8b96-849059644406",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "ec78b265-6782-4740-8b96-849059644406",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "ec78b265-6782-4740-8b96-849059644406",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmth9agyy000p78wi4dfhjeku",
+        "productId": "ec78b265-6782-4740-8b96-849059644406",
+        "url": "/uploads/products/recreate-image-with-professional-202608311809-01ee662c-aa34-4bdc-a13b-15ae9f9b17c0.jpg",
+        "altText": "HP ELITEBOOK 840G7",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T13:10:27.946Z"
+      },
+      {
+        "id": "cmth9agqo000o78witqeactj5",
+        "productId": "ec78b265-6782-4740-8b96-849059644406",
+        "url": "/uploads/products/hp-elitebook-laptop-for-sale-202608311810-d2d802bf-855d-46d8-8582-e3891d23bd6a.jpg",
+        "altText": "HP ELITEBOOK 840G7",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T13:10:27.648Z"
+      }
+    ]
+  },
+  {
+    "id": "e3d264ad-fb6d-4ccf-af57-59162f6a4dca",
+    "name": "HP ELITEBOOK 840G6 |CI7 8TH Gen | 8GB RAM | 256GB SSD | 14\" LED | Charger Included",
+    "slug": "hp-elitebook-840g6-ci7-8th-gen-8gb-ram-256gb-ssd-14-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 840G6 features an Intel Core i7 (8TH Generation) paired with 8GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 840G6 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i7 CI7 8TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 8GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 840G6 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "69000",
+    "compareAtPrice": null,
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 840G6",
+      "Intel Core i7 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 840G6 CI7 8TH Gen (8GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 840G6 with Intel Core i7 8TH Generation, 8GB RAM, 256GB SSD, and 14\" LED. Tested quality with original charger included. Order now at be...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 840G6\r\nProcessor: Intel Core i7, 8TH Generation\r\nMemory (RAM): 8GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 14\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:08.868Z",
+    "updatedAt": "2026-08-31T13:16:07.739Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "e3d264ad-fb6d-4ccf-af57-59162f6a4dca",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "e3d264ad-fb6d-4ccf-af57-59162f6a4dca",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "e3d264ad-fb6d-4ccf-af57-59162f6a4dca",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmth9gw8w000r78wisw95dvsw",
+        "productId": "e3d264ad-fb6d-4ccf-af57-59162f6a4dca",
+        "url": "/uploads/products/recreate-image-with-professional-202608311815-0840e6d1-f1e0-4010-959b-a857e91c0993.jpg",
+        "altText": "HP ELITEBOOK 840G6",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T13:15:27.680Z"
+      },
+      {
+        "id": "cmth9gwfr000s78wi5ndp97lv",
+        "productId": "e3d264ad-fb6d-4ccf-af57-59162f6a4dca",
+        "url": "/uploads/products/recreate-image-and-change-backgr-202608311814-77e245af-c169-4125-8fd0-d18010d3363b.jpg",
+        "altText": "HP ELITEBOOK 840G6",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T13:15:27.927Z"
+      }
+    ]
+  },
+  {
+    "id": "20f99d37-0820-4ce1-b5c1-77231eb08572",
+    "name": "HP ELITEBOOK 840G6 |CI5 8TH Gen | 8GB RAM | 256GB SSD | 14\" LED | Charger Included",
+    "slug": "hp-elitebook-840g6-cii5-ci5-8th-gen-8gb-ram-256gb-ssd-14-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 840G6 features an Intel Core i5 (8TH Generation) paired with 8GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 840G6 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 8TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 8GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 840G6 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "65000",
+    "compareAtPrice": "85000",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 840G6",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 840G6 CI5 8TH Gen (8GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 840G6 with Intel Core i5 8TH Generation, 8GB RAM, 256GB SSD, and 14\" LED. Tested quality with original charger included. Order now at be...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 840G6\r\nProcessor: Intel Core i5,8TH Generation\r\nMemory (RAM): 8GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 14\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:07.863Z",
+    "updatedAt": "2026-08-31T13:24:15.955Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "20f99d37-0820-4ce1-b5c1-77231eb08572",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "20f99d37-0820-4ce1-b5c1-77231eb08572",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "20f99d37-0820-4ce1-b5c1-77231eb08572",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmth9o21h000w78wijrwzr3fo",
+        "productId": "20f99d37-0820-4ce1-b5c1-77231eb08572",
+        "url": "/uploads/products/recreate-image-professional-shoot-202608311820-ab4fa48b-0aec-4e69-b106-8443e91a1e57.jpg",
+        "altText": "HP ELITEBOOK 840G6",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T13:21:01.781Z"
+      },
+      {
+        "id": "cmth9o1t8000v78wiqk16h24l",
+        "productId": "20f99d37-0820-4ce1-b5c1-77231eb08572",
+        "url": "/uploads/products/recreate-professional-shoot-back-202608311820-8b5e0601-d478-447a-b6d1-5d2db0af7ba8.jpg",
+        "altText": "HP ELITEBOOK 840G6",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T13:21:01.484Z"
+      },
+      {
+        "id": "cmth9o29u000x78wigj8evea7",
+        "productId": "20f99d37-0820-4ce1-b5c1-77231eb08572",
+        "url": "/uploads/products/recreate-image-with-professional-202608311820-7d04adf2-5e19-4da2-bc94-bb574146889e.jpg",
+        "altText": "HP ELITEBOOK 840G6",
+        "sortOrder": 2,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T13:21:02.082Z"
+      }
+    ]
+  },
+  {
+    "id": "ab413cea-320a-4328-8d89-e62fd72526ac",
+    "name": "HP ELITEBOOK 840G6 | CI7 8TH Gen | 16GB RAM | 256GB SSD | 14\" LED | Charger Included",
+    "slug": "hp-elitebook-840g6-ci7-8th-gen-16gb-ram-256gb-ssd-14-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 840G6 features an Intel Core i7 (8TH Generation) paired with 16GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 840G6 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i7 CI7 8TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 16GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 840G6 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "73000",
+    "compareAtPrice": null,
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 840G6",
+      "Intel Core i7 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 840G6 CI7 8TH Gen (16GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 840G6 with Intel Core i7 8TH Generation, 16GB RAM, 256GB SSD, and 14\" LED. Tested quality with original charger included. Order now at b...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 840G6\r\nProcessor: Intel Core i7, 8TH Generation\r\nMemory (RAM): 16GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 14\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:05.825Z",
+    "updatedAt": "2026-08-31T13:34:10.851Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "ab413cea-320a-4328-8d89-e62fd72526ac",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "ab413cea-320a-4328-8d89-e62fd72526ac",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "ab413cea-320a-4328-8d89-e62fd72526ac",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmtha2746001278wi30gbmlcw",
+        "productId": "ab413cea-320a-4328-8d89-e62fd72526ac",
+        "url": "/uploads/products/recreate-image-professional-shoot-202608311831-1-d678c288-b3ec-4420-a392-50b48fd987cd.jpg",
+        "altText": "HP ELITEBOOK 840G6 | CI7 8TH Gen | 16GB RAM | 256GB SSD | 14\" LED | Charger Included",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T13:32:01.542Z"
+      },
+      {
+        "id": "cmtha27fl001378wi1cj7y9kx",
+        "productId": "ab413cea-320a-4328-8d89-e62fd72526ac",
+        "url": "/uploads/products/recreate-image-professional-shoot-202608311831-2bae2ac0-f79e-4a50-bc63-2e3ede0f184c.jpg",
+        "altText": "HP ELITEBOOK 840G6",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T13:32:01.953Z"
+      }
+    ]
+  },
+  {
+    "id": "ef20b97e-0914-4ac2-8884-e1e7269d941c",
+    "name": "HP ELITEBOOK 840 G10 | CI5 13TH Gen | 16GB RAM | 256GB SSD | 14\" LED | Charger Included",
+    "slug": "hp-elitebook-840-g10-ci5-13th-gen-16gb-ram-256gb-ssd-14-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 840 G10 features an Intel Core i5 (CI5 13TH Generation) paired with 16GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 840 G10 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 13TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 16GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 840 G10 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "134000",
+    "compareAtPrice": "145000",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 840 G10",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 840 G10 CI5 13TH Gen (16GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 840 G10 with Intel Core i5 13TH Generation, 16GB RAM, 256GB SSD, and 14\" LED. Tested quality with original charger included. Order now a...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 840 G10\r\nProcessor: Intel Core i5, 13TH Generation\r\nMemory (RAM): 16GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 14\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:19.446Z",
+    "updatedAt": "2026-08-22T12:19:51.507Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "ef20b97e-0914-4ac2-8884-e1e7269d941c",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "ef20b97e-0914-4ac2-8884-e1e7269d941c",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "ef20b97e-0914-4ac2-8884-e1e7269d941c",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmt4c5k8s0007mwwiom3qeuum",
+        "productId": "ef20b97e-0914-4ac2-8884-e1e7269d941c",
+        "url": "/uploads/products/recreate-image-with-background-202608221709-037994c6-aebf-4dd3-82db-797f9a89abce.jpg",
+        "altText": "HP ELITEBOOK 840 G10",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-22T12:09:37.468Z"
+      },
+      {
+        "id": "cmt4c5kj50008mwwi8w90jbos",
+        "productId": "ef20b97e-0914-4ac2-8884-e1e7269d941c",
+        "url": "/uploads/products/hp-elitebook-840-g10-laptop-202608221709-92de012c-e4b6-4f9d-b568-69f9aa71d0c7.jpg",
+        "altText": "HP ELITEBOOK 840 G10",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-22T12:09:37.841Z"
+      },
+      {
+        "id": "cmt4c5kqd0009mwwij5wjumgt",
+        "productId": "ef20b97e-0914-4ac2-8884-e1e7269d941c",
+        "url": "/uploads/products/create-e-commerce-product-image-202608221709-583a90db-565c-4a07-9b75-76d05febb82a.jpg",
+        "altText": "HP ELITEBOOK 840 G10",
+        "sortOrder": 2,
+        "isPrimary": false,
+        "createdAt": "2026-08-22T12:09:38.101Z"
+      }
+    ]
+  },
+  {
+    "id": "627be42a-3bcf-4026-867f-8a4489b3d185",
+    "name": "HP ELITEBOOK 840 G7 |CI5 10TH Gen | 16GB RAM | 256GB SSD | 14\" LED | Charger Included",
+    "slug": "hp-elitebook-840-g7-ci5-10th-gen-16gb-ram-256gb-ssd-14-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 840 G7 features an Intel Core i5 (10TH Generation) paired with 16GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 840 G7 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 10TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 16GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 840 G7 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "73000",
+    "compareAtPrice": "78000",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 840 G7",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 840 G7 CI5 10TH Gen (16GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 840 G7 with Intel Core i5 10TH Generation, 16GB RAM, 256GB SSD, and 14\" LED. Tested quality with original charger included. Order now at...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 840 G7\r\nProcessor: Intel Core i5, 10TH Generation\r\nMemory (RAM): 16GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 14\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:18.465Z",
+    "updatedAt": "2026-08-22T12:37:54.768Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "627be42a-3bcf-4026-867f-8a4489b3d185",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "627be42a-3bcf-4026-867f-8a4489b3d185",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "627be42a-3bcf-4026-867f-8a4489b3d185",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmt4d1zub000emwwi2s2qvdhc",
+        "productId": "627be42a-3bcf-4026-867f-8a4489b3d185",
+        "url": "/uploads/products/recreate-this-image-2k-202608221725-213bc54a-0d31-4b4a-a7d1-92444fc7befd.jpg",
+        "altText": "HP ELITEBOOK 840 G7",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-22T12:34:50.675Z"
+      },
+      {
+        "id": "cmt4d1zn6000dmwwiiw24it8s",
+        "productId": "627be42a-3bcf-4026-867f-8a4489b3d185",
+        "url": "/uploads/products/hp-elitebook-product-image-creation-202608221725-b7d19510-facc-499e-b146-8bc5a5be67bc.jpg",
+        "altText": "HP ELITEBOOK 840 G7",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-22T12:34:50.418Z"
+      }
+    ]
+  },
+  {
+    "id": "247f4bd5-6e29-44d8-8148-49536701e2b1",
+    "name": "HP PROBOOK 650G8 |CI5 11TH Gen | 16GB RAM | 512GB SSD | 15.6\" LED FHD | Charger Included",
+    "slug": "hp-probook-650g8-ci5-11th-gen-16gb-ram-512gb-ssd-15-6-led-fhd-charger-included-2",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP ProBook 650G8 features an Intel Core i5 (11TH Generation) paired with 16GB RAM and a ultra-fast 512GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 15.6\" LED FHD, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP ProBook 650G8 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 11TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 512GB SSD provides quick data access alongside 16GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP ProBook 650G8 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "95000",
+    "compareAtPrice": "100000",
+    "stock": 0,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP ProBook 650G8",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP ProBook 650G8 CI5 11TH Gen (16GB RAM, 512GB SSD) - Best Price",
+    "seoDescription": "Buy HP ProBook 650G8 with Intel Core i5 11TH Generation, 16GB RAM, 512GB SSD, and 15.6\" LED FHD. Tested quality with original charger included. Order now...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP ProBook 650G8\r\nProcessor: Intel Core i5, 11TH Generation\r\nMemory (RAM): 16GB RAM\r\nStorage: 512GB SSD\r\nDisplay: 15.6\" LED FHD\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:17.484Z",
+    "updatedAt": "2026-08-22T13:11:00.125Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "247f4bd5-6e29-44d8-8148-49536701e2b1",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "247f4bd5-6e29-44d8-8148-49536701e2b1",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "247f4bd5-6e29-44d8-8148-49536701e2b1",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmt4eazd5000imwwigazewgon",
+        "productId": "247f4bd5-6e29-44d8-8148-49536701e2b1",
+        "url": "/uploads/products/recreate-image-and-add-background-202608221809-6c753295-9928-4206-9ce0-813521582f02.jpg",
+        "altText": "HP PROBOOK 650G8",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-22T13:09:49.577Z"
+      },
+      {
+        "id": "cmt4eaz3z000hmwwiidys9fbw",
+        "productId": "247f4bd5-6e29-44d8-8148-49536701e2b1",
+        "url": "/uploads/products/create-laptop-e-commerce-product-202608221809-e7cbed2c-c59e-48cb-bd90-d2ae9db6bf72.jpg",
+        "altText": "HP PROBOOK 650G8",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-22T13:09:49.247Z"
+      }
+    ]
+  },
+  {
+    "id": "ab20465f-ca24-484b-a2a1-8f153b686735",
+    "name": "HP ENVY 15 GRAPHICS EDITION | Ci7 6TH Gen | 16GB RAM | 256GB SSD | 15.6\"LED Touchscreen | Charger Included",
+    "slug": "hp-envy-15-graphics-edition-ci7-6th-gen-16gb-ram-256gb-ssd-15-6-led-touchscreen-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP Envy 15 Graphics Edition features an Intel Core i7 (6TH Generation) paired with 16GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 15.6\"LED Touchscreen, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP Envy 15 Graphics Edition offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i7 CI7 6TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 16GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP Envy 15 Graphics Edition today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "64000",
+    "compareAtPrice": null,
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP Envy 15 Graphics Edition",
+      "Intel Core i7 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP Envy 15 Graphics Edition CI7 6TH Gen (16GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP Envy 15 Graphics Edition with Intel Core i7 6TH Generation, 16GB RAM, 256GB SSD, and 15.6\"LED Touchscreen. Tested quality with original charger in...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP Envy 15 Graphics Edition\r\nProcessor: Intel Core i7, 6TH Generation\r\nMemory (RAM): 16GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 15.6\"LED Touchscreen\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:16.504Z",
+    "updatedAt": "2026-08-31T10:58:59.166Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "ab20465f-ca24-484b-a2a1-8f153b686735",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "ab20465f-ca24-484b-a2a1-8f153b686735",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "ab20465f-ca24-484b-a2a1-8f153b686735",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmth4iqek000178wi5c1xgl63",
+        "productId": "ab20465f-ca24-484b-a2a1-8f153b686735",
+        "url": "/uploads/products/unboxing-202608311553-8fdebfd4-5b0c-4ce1-83a0-a3eb15cc4806.jpg",
+        "altText": "HP ENVY 15",
+        "sortOrder": 2,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T10:56:55.340Z"
+      },
+      {
+        "id": "cmth4iqpk000278wim00p3r7a",
+        "productId": "ab20465f-ca24-484b-a2a1-8f153b686735",
+        "url": "/uploads/products/recreat-it-and-add-esthatic-202608311553-1-01df93f7-530f-4c58-b83b-7b5243e42cfe.jpg",
+        "altText": "HP ENVY 15",
+        "sortOrder": 3,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T10:56:55.736Z"
+      },
+      {
+        "id": "cmth4iq4x000078wij87v5857",
+        "productId": "ab20465f-ca24-484b-a2a1-8f153b686735",
+        "url": "/uploads/products/explodedview-2k-202608311553-c3204a67-2a5b-46bf-ab21-cce903fef7f2.jpg",
+        "altText": "HP ENVY 15",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T10:56:54.994Z"
+      },
+      {
+        "id": "cmth4ir3l000378witi7d8jeb",
+        "productId": "ab20465f-ca24-484b-a2a1-8f153b686735",
+        "url": "/uploads/products/recreat-it-and-add-esthatic-202608311553-d90de7e3-e8e9-4e51-b062-977dbee7c81a.jpg",
+        "altText": "HP ENVY 15",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T10:56:56.241Z"
+      }
+    ]
+  },
+  {
+    "id": "55cfb269-aff0-4d40-b9c8-f87e49940ef9",
+    "name": "HP PROBOOK 11G2 | Ci3 6TH Gen | 8GB RAM | 128GB SSD | 12\" LED | Charger Included",
+    "slug": "hp-probook-11g2-ci3-6th-gen-8gb-ram-128gb-ssd-12-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP ProBook 11G2 features an Intel Core i3 ( 6TH Generation) paired with 8GB RAM and a ultra-fast 128GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 12\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP ProBook 11G2 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i3 CI3 6TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 128GB SSD provides quick data access alongside 8GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP ProBook 11G2 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "34000",
+    "compareAtPrice": null,
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP ProBook 11G2",
+      "Intel Core i3 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP ProBook 11G2 Cii3 CI3 6TH Gen (8GB RAM, 128GB SSD) - Best Price",
+    "seoDescription": "Buy HP ProBook 11G2 with Intel Core i3 CI3 6TH Generation, 8GB RAM, 128GB SSD, and 12\" LED. Tested quality with original charger included. Order now at best ...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP ProBook 11G2\r\nProcessor: Intel Core i3, 6TH Generation\r\nMemory (RAM): 8GB RAM\r\nStorage: 128GB SSD\r\nDisplay: 12\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:15.511Z",
+    "updatedAt": "2026-08-31T11:02:42.847Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "55cfb269-aff0-4d40-b9c8-f87e49940ef9",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "55cfb269-aff0-4d40-b9c8-f87e49940ef9",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "55cfb269-aff0-4d40-b9c8-f87e49940ef9",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmth4p0ui000578wium2tvoez",
+        "productId": "55cfb269-aff0-4d40-b9c8-f87e49940ef9",
+        "url": "/uploads/products/recreat-it-and-add-esthatic-202608311601-2-5db3759f-93c1-4f68-8530-96fa81611dc1.jpg",
+        "altText": "HP PROBOOK 11G2 | Ci3 6TH Gen",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T11:01:48.810Z"
+      },
+      {
+        "id": "cmth4p1cf000778wih75v77mj",
+        "productId": "55cfb269-aff0-4d40-b9c8-f87e49940ef9",
+        "url": "/uploads/products/recreat-it-and-add-esthatic-202608311601-b74f1320-d9d3-4076-a927-feab95673a67.jpg",
+        "altText": "HP PROBOOK 11G2 | Ci3 6TH Gen",
+        "sortOrder": 2,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T11:01:49.456Z"
+      },
+      {
+        "id": "cmth4p140000678wi79aidhxa",
+        "productId": "55cfb269-aff0-4d40-b9c8-f87e49940ef9",
+        "url": "/uploads/products/recreat-it-and-add-esthatic-202608311601-1-d481d9c4-38bd-49dc-b4db-a2b09b7d83a8.jpg",
+        "altText": "HP PROBOOK 11G2 | Ci3 6TH Gen",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T11:01:49.152Z"
+      }
+    ]
+  },
+  {
+    "id": "332a7424-25d4-4943-a7d0-3e7ec804c59a",
+    "name": "HP PAVILION 14 | CI5 10TH Gen | 8GB RAM | 256GB SSD | 14\" LED | Charger Included",
+    "slug": "hp-pavilion-14-ci5-10th-gen-8gb-ram-256gb-ssd-14-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP Pavilion 14 features an Intel Core i5 (10TH Generation) paired with 8GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 14\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP Pavilion 14 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by Intel Core i5 CI5 10TH Generation for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 8GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP Pavilion 14 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "83000",
+    "compareAtPrice": "90000",
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP Pavilion 14",
+      "Intel Core i5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP Pavilion 14 Ci5 10TH Gen (8GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP Pavilion 14 with Intel Core i5 10TH Generation, 8GB RAM, 256GB SSD, and 14\" LED. Tested quality with original charger included. Order now at best ...",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP Pavilion 14\r\nProcessor: Intel Core i5, 10TH Generation\r\nMemory (RAM): 8GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 14\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:36:01.840Z",
+    "updatedAt": "2026-08-31T14:24:50.011Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "332a7424-25d4-4943-a7d0-3e7ec804c59a",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "332a7424-25d4-4943-a7d0-3e7ec804c59a",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "332a7424-25d4-4943-a7d0-3e7ec804c59a",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmthbx4ae001g78wivq9cfeua",
+        "productId": "332a7424-25d4-4943-a7d0-3e7ec804c59a",
+        "url": "/uploads/products/recreate-professional-shoot-back-202608311923-a5edbcd6-fa07-4edc-ad89-4e308b40bf06.jpg",
+        "altText": "HP PAVILION 14",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T14:24:03.830Z"
+      },
+      {
+        "id": "cmthbx439001f78wi34td2km4",
+        "productId": "332a7424-25d4-4943-a7d0-3e7ec804c59a",
+        "url": "/uploads/products/recreate-image-with-professional-202608311923-def7eecf-aefd-4b34-ae69-93f1e3252c18.jpg",
+        "altText": "HP PAVILION 14",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T14:24:03.573Z"
+      }
+    ]
+  },
+  {
+    "id": "dcc9f5c8-ac40-4d51-9940-efba8f43e60e",
+    "name": "HP ELITEBOOK 735G5 | Ryzen 5 | 8GB RAM | 256GB SSD | 13.3\" LED | Charger Included",
+    "slug": "hp-elitebook-735g5-ryzen-5-8gb-ram-256gb-ssd-13-3-led-charger-included",
+    "sku": null,
+    "description": "Looking for a high-performance, reliable, and affordable laptop? The HP EliteBook 735G5 features an AMD Ryzen 5 paired with 8GB RAM and a ultra-fast 256GB SSD, delivering smooth multitasking, rapid boot times, and superior efficiency for work, business, study, and daily entertainment. Equipped with a crisp 13.3\" LED, this HP laptop ensures clear visuals and comfortable viewing during extended working hours. Whether you need a sleek ultrabook for on-the-go productivity or a durable business laptop for heavy office tasks, the HP EliteBook 735G5 offers modern aesthetics, solid build quality, and excellent battery management. Key Highlights: Reliable Performance: Powered by AMD Ryzen 5 for seamless execution of office applications, web browsing, and multi-tab workflows. Fast Storage & Multitasking: High-speed 256GB SSD provides quick data access alongside 8GB RAM memory. Complete Package: Comes fully tested, sanitized, and complete with its original power adapter/charger. Order your HP EliteBook 735G5 today to experience enterprise-grade reliability at the best market price with nationwide delivery.",
+    "price": "65000",
+    "compareAtPrice": null,
+    "stock": 1,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 735G5",
+      "AMD Ryzen 5 Laptop",
+      "Business Laptop",
+      "Used Laptops"
+    ],
+    "seoTitle": "HP EliteBook 735G5 Ryzen 5 (8GB RAM, 256GB SSD) - Best Price",
+    "seoDescription": "Buy HP EliteBook 735G5 with AMD Ryzen 5, 8GB RAM, 256GB SSD, and 13.3\" LED. Tested quality with original charger included. Order now at best price!",
+    "shortDescription": "Key Specifications\r\nBrand / Model: HP EliteBook 735G5\r\nProcessor: AMD Ryzen 5\r\nMemory (RAM): 8GB RAM\r\nStorage: 256GB SSD\r\nDisplay: 13.3\" LED\r\nAccessories: Original Charger Included\r\nCondition: Tested and ready to use",
+    "createdAt": "2026-08-22T11:35:59.793Z",
+    "updatedAt": "2026-08-31T14:33:46.223Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "dcc9f5c8-ac40-4d51-9940-efba8f43e60e",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "dcc9f5c8-ac40-4d51-9940-efba8f43e60e",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "dcc9f5c8-ac40-4d51-9940-efba8f43e60e",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmthc8t8z001m78wilp097wtg",
+        "productId": "dcc9f5c8-ac40-4d51-9940-efba8f43e60e",
+        "url": "/uploads/products/recreate-image-professional-shoot-202608311932-e244acde-c3b6-4d43-bf86-f45ecaf519e7.jpg",
+        "altText": "HP ELITEBOOK 735G5",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-08-31T14:33:09.395Z"
+      },
+      {
+        "id": "cmthc8t0o001l78wili23vlh5",
+        "productId": "dcc9f5c8-ac40-4d51-9940-efba8f43e60e",
+        "url": "/uploads/products/recreate-image-with-professional-202608311932-ffc76d9a-8d5a-4956-85f2-a8caa7bee5e0.jpg",
+        "altText": "HP ELITEBOOK 735G5",
+        "sortOrder": 1,
+        "isPrimary": false,
+        "createdAt": "2026-08-31T14:33:09.096Z"
+      }
+    ]
+  },
+  {
+    "id": "p1",
+    "name": "HP EliteBook 840 G9",
+    "slug": "hp-elitebook-840-g9",
+    "sku": null,
+    "description": "A business-grade 14\" laptop built for professionals — Intel Core i7, 16GB RAM, 512GB SSD, with enterprise-level security features and all-day battery life.",
+    "price": "285000",
+    "compareAtPrice": null,
+    "stock": 14,
+    "lowStockThreshold": null,
+    "status": "ACTIVE",
+    "featured": false,
+    "categoryId": "cmsykix5m0000aowi957tzgyd",
+    "brandId": "cmsykj1q1000faowilsicslt5",
+    "tags": [
+      "HP Laptops",
+      "HP EliteBook 840 G9",
+      "Intel Core i7 Laptop",
+      "16GB RAM",
+      "512GB SSD",
+      "Business Laptop"
+    ],
+    "seoTitle": "HP EliteBook 840 G9 | Intel Core i7 | 16GB RAM | 512GB SSD",
+    "seoDescription": "Shop the HP EliteBook 840 G9 business-grade 14-inch laptop. Features Intel Core i7, 16GB RAM, 512GB SSD, and enterprise-level security.",
+    "shortDescription": "Key Specifications\nBrand / Model: HP EliteBook 840 G9\nProcessor: Intel Core i7\nMemory (RAM): 16GB RAM\nStorage: 512GB SSD\nDisplay: 14\"",
+    "createdAt": "2026-09-16T10:53:03.940Z",
+    "updatedAt": "2026-09-16T10:53:03.940Z",
+    "category": {
+      "id": "cmsykix5m0000aowi957tzgyd",
+      "name": "Laptops",
+      "slug": "laptops",
+      "description": "Business, gaming and creator laptops from the world's leading brands.",
+      "image": "/categories/laptops.jpg",
+      "icon": "Laptop",
+      "tier": "FEATURED",
+      "sortOrder": 0,
+      "parentId": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:20.602Z",
+      "updatedAt": "2026-09-16T10:52:46.603Z"
+    },
+    "brand": {
+      "id": "cmsykj1q1000faowilsicslt5",
+      "name": "HP",
+      "slug": "hp",
+      "logoUrl": "/brands/hp.svg",
+      "description": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "createdAt": "2026-08-18T11:17:26.521Z",
+      "updatedAt": "2026-09-16T10:52:55.491Z"
+    },
+    "collections": [
+      {
+        "productId": "p1",
+        "collectionId": "cmu5fonty0000w4wivfbi63f6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fonty0000w4wivfbi63f6",
+          "name": "Student Laptops",
+          "slug": "student",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:55.942Z",
+          "updatedAt": "2026-09-17T11:15:55.942Z"
+        }
+      },
+      {
+        "productId": "p1",
+        "collectionId": "cmu5foo2j0001w4wiymv864wk",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5foo2j0001w4wiymv864wk",
+          "name": "Office Laptops",
+          "slug": "office",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.251Z",
+          "updatedAt": "2026-09-17T11:15:56.251Z"
+        }
+      },
+      {
+        "productId": "p1",
+        "collectionId": "cmu5fooa30002w4wi3hqgt7i6",
+        "createdAt": "2026-09-17T14:26:53.373Z",
+        "collection": {
+          "id": "cmu5fooa30002w4wi3hqgt7i6",
+          "name": "Business Laptops",
+          "slug": "business",
+          "categoryId": "cmsykix5m0000aowi957tzgyd",
+          "createdAt": "2026-09-17T11:15:56.523Z",
+          "updatedAt": "2026-09-17T11:15:56.523Z"
+        }
+      }
+    ],
+    "images": [
+      {
+        "id": "cmu3zff1s00160cwif4vxccvw",
+        "productId": "p1",
+        "url": "/categories/laptops.jpg",
+        "altText": "HP EliteBook 840 G9",
+        "sortOrder": 0,
+        "isPrimary": true,
+        "createdAt": "2026-09-16T10:53:04.625Z"
+      }
+    ]
+  }
+]
