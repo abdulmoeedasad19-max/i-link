@@ -60,6 +60,11 @@ export default async function LaptopsPage({
               priceCurrency: "PKR",
               price: String(product.price),
               availability: product.stock > 0 ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
+              ...(product.tags.some(t => t.toLowerCase().includes("used") || t.toLowerCase().includes("refurbished"))
+                ? { itemCondition: "https://schema.org/UsedCondition" }
+                : product.tags.some(t => t.toLowerCase().includes("new"))
+                ? { itemCondition: "https://schema.org/NewCondition" }
+                : {}),
             }
           }
         }))

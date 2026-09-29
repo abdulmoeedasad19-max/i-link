@@ -144,6 +144,11 @@ export default async function ProductPage({
       priceCurrency: "PKR",
       price: String(product.price),
       availability: inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
+      ...(product.tags.some(t => t.toLowerCase().includes("used") || t.toLowerCase().includes("refurbished"))
+        ? { itemCondition: "https://schema.org/UsedCondition" }
+        : product.tags.some(t => t.toLowerCase().includes("new"))
+        ? { itemCondition: "https://schema.org/NewCondition" }
+        : {}),
     },
     // Sourced from src/lib/reviews.ts, which scopes every read to
     // status: "APPROVED" — never PENDING or REJECTED — and this is the
