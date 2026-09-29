@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import DOMPurify from "isomorphic-dompurify";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import { ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
@@ -290,7 +291,12 @@ export default async function ProductPage({
         </div>
 
         <ProductDetailTabs
-          description={<p className="max-w-3xl leading-relaxed text-slate">{product.description}</p>}
+          description={
+          <div 
+            className="max-w-3xl leading-relaxed text-slate [&>h3]:text-lg [&>h3]:font-semibold [&>h3]:text-navy [&>h3]:mt-6 [&>h3]:mb-2 [&>p]:mb-4 [&>ul]:list-disc [&>ul]:pl-5 [&>ul]:mb-4 [&>li]:mb-1"
+            dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(product.description || "") }}
+          />
+        }
           reviews={<ProductReviews productSlug={product.slug} />}
           reviewCount={ratingSummary.reviewCount}
         />
